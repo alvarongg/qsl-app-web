@@ -1,0 +1,247 @@
+{
+  "country": "Argentina",
+  "countryCode": "ar",
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "ar-reg-001",
+      "category": "regulation",
+      "question": "¿Cuál es el organismo regulador de las comunicaciones en Argentina?",
+      "options": ["ENACOM", "ANMAT", "AFIP", "SENASA"],
+      "correctIndex": 0,
+      "explanation": "ENACOM (Ente Nacional de Comunicaciones) es el organismo que regula las telecomunicaciones en Argentina, incluyendo las licencias de radioaficionados."
+    },
+    {
+      "id": "ar-reg-002",
+      "category": "regulation",
+      "question": "¿Cuántas categorías de licencia de radioaficionado existen en Argentina?",
+      "options": ["2", "3", "4", "5"],
+      "correctIndex": 1,
+      "explanation": "En Argentina existen 3 categorías de licencia de radioaficionado: Novicio, General y Superior, cada una con diferentes privilegios de frecuencia y potencia."
+    },
+    {
+      "id": "ar-reg-003",
+      "category": "regulation",
+      "question": "¿Qué prefijo de indicativo corresponde a estaciones de radioaficionados en Argentina?",
+      "options": ["LU", "PY", "CE", "CX"],
+      "correctIndex": 0,
+      "explanation": "El prefijo LU (y variantes como LW, LO, etc.) está asignado por la UIT a la República Argentina para estaciones de radioaficionados."
+    },
+    {
+      "id": "ar-reg-004",
+      "category": "regulation",
+      "question": "¿Cuál es la potencia máxima permitida para un radioaficionado categoría Superior en Argentina?",
+      "options": ["100 W", "500 W", "1000 W", "1500 W"],
+      "correctIndex": 2,
+      "explanation": "La categoría Superior permite una potencia máxima de 1000 W (1 kW) PEP en las bandas autorizadas según la reglamentación de ENACOM."
+    },
+    {
+      "id": "ar-reg-005",
+      "category": "regulation",
+      "question": "¿Está permitido transmitir mensajes con fines comerciales en las bandas de radioaficionados?",
+      "options": ["Sí, siempre", "Solo en emergencias", "No, está prohibido", "Solo con autorización especial"],
+      "correctIndex": 2,
+      "explanation": "El servicio de radioaficionados es exclusivamente para fines de experimentación, instrucción y comunicación personal. Las transmisiones con fines comerciales están prohibidas."
+    },
+    {
+      "id": "ar-elec-001",
+      "category": "electronics",
+      "question": "¿Cuál es la unidad de medida de la resistencia eléctrica?",
+      "options": ["Faradio", "Ohmio", "Henrio", "Vatio"],
+      "correctIndex": 1,
+      "explanation": "El ohmio (Ω) es la unidad de medida de la resistencia eléctrica en el Sistema Internacional de Unidades."
+    },
+    {
+      "id": "ar-elec-002",
+      "category": "electronics",
+      "question": "¿Qué componente electrónico almacena energía en un campo eléctrico?",
+      "options": ["Resistor", "Inductor", "Capacitor", "Diodo"],
+      "correctIndex": 2,
+      "explanation": "El capacitor (o condensador) almacena energía en forma de campo eléctrico entre sus placas conductoras separadas por un dieléctrico."
+    },
+    {
+      "id": "ar-elec-003",
+      "category": "electronics",
+      "question": "Según la Ley de Ohm, si se aplica una tensión de 12 V a una resistencia de 4 Ω, ¿cuál es la corriente?",
+      "options": ["2 A", "3 A", "4 A", "48 A"],
+      "correctIndex": 1,
+      "explanation": "Según la Ley de Ohm (I = V/R), la corriente es 12 V / 4 Ω = 3 A."
+    },
+    {
+      "id": "ar-elec-004",
+      "category": "electronics",
+      "question": "¿Qué tipo de modulación se utiliza comúnmente en la banda de 2 metros para comunicaciones de voz?",
+      "options": ["AM (Amplitud Modulada)", "FM (Frecuencia Modulada)", "SSB (Banda Lateral Única)", "CW (Onda Continua)"],
+      "correctIndex": 1,
+      "explanation": "En la banda de 2 metros (144-148 MHz) se utiliza predominantemente FM (Frecuencia Modulada) para comunicaciones de voz locales y a través de repetidoras."
+    },
+    {
+      "id": "ar-elec-005",
+      "category": "electronics",
+      "question": "¿Cuál es la función de un oscilador en un transmisor de radio?",
+      "options": ["Amplificar la señal de audio", "Generar la frecuencia portadora", "Filtrar las señales no deseadas", "Convertir la señal digital a analógica"],
+      "correctIndex": 1,
+      "explanation": "El oscilador genera la señal de radiofrecuencia portadora que luego será modulada con la información (voz, datos, etc.) que se desea transmitir."
+    },
+    {
+      "id": "ar-prop-001",
+      "category": "propagation",
+      "question": "¿Qué capa de la ionósfera es la principal responsable de la propagación de ondas de HF a larga distancia durante el día?",
+      "options": ["Capa D", "Capa E", "Capa F1", "Capa F2"],
+      "correctIndex": 3,
+      "explanation": "La capa F2 es la más alta y densa de la ionósfera, y es la principal responsable de la refracción de ondas de HF que permite las comunicaciones a larga distancia (DX)."
+    },
+    {
+      "id": "ar-prop-002",
+      "category": "propagation",
+      "question": "¿Qué es la MUF (Máxima Frecuencia Utilizable)?",
+      "options": ["La frecuencia más baja que puede refractarse en la ionósfera", "La frecuencia más alta que puede refractarse en la ionósfera para un trayecto dado", "La frecuencia óptima para comunicaciones locales", "La frecuencia máxima de un transmisor"],
+      "correctIndex": 1,
+      "explanation": "La MUF es la frecuencia más alta que puede ser refractada por la ionósfera para un trayecto de propagación específico en un momento dado. Por encima de la MUF, las señales atraviesan la ionósfera."
+    },
+    {
+      "id": "ar-prop-003",
+      "category": "propagation",
+      "question": "¿Qué efecto tienen las manchas solares sobre la propagación de HF?",
+      "options": ["No tienen ningún efecto", "Disminuyen la propagación", "Aumentan la ionización y mejoran la propagación en frecuencias altas", "Solo afectan las frecuencias de VHF"],
+      "correctIndex": 2,
+      "explanation": "Las manchas solares aumentan la radiación ultravioleta que ioniza las capas superiores de la atmósfera, mejorando la propagación en las bandas altas de HF al elevar la MUF."
+    },
+    {
+      "id": "ar-prop-004",
+      "category": "propagation",
+      "question": "¿Qué tipo de propagación se utiliza principalmente en VHF y UHF?",
+      "options": ["Propagación ionosférica", "Propagación por onda de superficie", "Propagación por línea de vista", "Propagación por onda de cielo"],
+      "correctIndex": 2,
+      "explanation": "En VHF y UHF la propagación es principalmente por línea de vista (line of sight), donde las señales viajan en línea recta entre antenas. El alcance depende de la altura de las antenas y la curvatura terrestre."
+    },
+    {
+      "id": "ar-prop-005",
+      "category": "propagation",
+      "question": "¿Qué es la zona de silencio (skip zone)?",
+      "options": ["Una zona donde no se reciben señales de radio", "La zona entre el alcance de la onda de superficie y el primer rebote ionosférico", "Una zona de interferencia destructiva", "El área detrás de un obstáculo grande"],
+      "correctIndex": 1,
+      "explanation": "La zona de silencio es el área entre el límite de alcance de la onda de superficie y el punto donde llega el primer salto ionosférico. En esta zona no se recibe la señal del transmisor."
+    },
+    {
+      "id": "ar-ant-001",
+      "category": "antennas",
+      "question": "¿Cuál es la impedancia característica típica de un cable coaxial RG-213?",
+      "options": ["50 Ω", "75 Ω", "100 Ω", "300 Ω"],
+      "correctIndex": 0,
+      "explanation": "El cable coaxial RG-213 tiene una impedancia característica de 50 Ω, que es el estándar utilizado en la mayoría de los equipos de radioaficionados."
+    },
+    {
+      "id": "ar-ant-002",
+      "category": "antennas",
+      "question": "¿Qué indica una ROE (Relación de Onda Estacionaria) de 1:1?",
+      "options": ["La antena está cortocircuitada", "Hay una adaptación perfecta de impedancia", "La antena está desconectada", "Hay máxima reflexión de potencia"],
+      "correctIndex": 1,
+      "explanation": "Una ROE de 1:1 indica una adaptación perfecta de impedancia entre el transmisor, la línea de transmisión y la antena. Toda la potencia se irradia y no hay reflexiones."
+    },
+    {
+      "id": "ar-ant-003",
+      "category": "antennas",
+      "question": "¿Cuál es la longitud aproximada de un dipolo de media onda para la banda de 20 metros (14 MHz)?",
+      "options": ["5 metros", "10 metros", "20 metros", "40 metros"],
+      "correctIndex": 1,
+      "explanation": "La longitud de un dipolo de media onda se calcula como 143/f(MHz). Para 14 MHz: 143/14 ≈ 10,2 metros. Cada brazo del dipolo mide aproximadamente 5 metros."
+    },
+    {
+      "id": "ar-ant-004",
+      "category": "antennas",
+      "question": "¿Qué tipo de antena tiene un diagrama de radiación omnidireccional en el plano horizontal?",
+      "options": ["Yagi", "Dipolo vertical", "Parabólica", "Log-periódica"],
+      "correctIndex": 1,
+      "explanation": "Un dipolo vertical irradia de forma omnidireccional en el plano horizontal (360°), lo que lo hace ideal para comunicaciones en todas las direcciones sin necesidad de rotar la antena."
+    },
+    {
+      "id": "ar-ant-005",
+      "category": "antennas",
+      "question": "¿Qué función cumple un balun en una instalación de antena?",
+      "options": ["Amplificar la señal", "Adaptar entre una línea balanceada y una desbalanceada", "Filtrar armónicos", "Medir la ROE"],
+      "correctIndex": 1,
+      "explanation": "Un balun (balanced-unbalanced) adapta la conexión entre una línea balanceada (como un dipolo) y una desbalanceada (como un cable coaxial), evitando corrientes de modo común."
+    },
+    {
+      "id": "ar-saf-001",
+      "category": "safety",
+      "question": "¿Cuál es el valor de corriente eléctrica considerado peligroso para el cuerpo humano?",
+      "options": ["Más de 1 A", "Más de 500 mA", "Más de 30 mA", "Más de 10 A"],
+      "correctIndex": 2,
+      "explanation": "Corrientes superiores a 30 mA a través del cuerpo humano pueden causar fibrilación ventricular y ser potencialmente letales. Por eso los dispositivos diferenciales se calibran a 30 mA."
+    },
+    {
+      "id": "ar-saf-002",
+      "category": "safety",
+      "question": "¿Cuál es la función principal de la puesta a tierra en una estación de radioaficionado?",
+      "options": ["Mejorar la propagación", "Aumentar la potencia de transmisión", "Proteger a las personas y equipos de descargas eléctricas", "Reducir el ruido de recepción"],
+      "correctIndex": 2,
+      "explanation": "La puesta a tierra proporciona un camino de baja impedancia para las corrientes de falla, protegiendo a las personas contra descargas eléctricas y a los equipos contra sobretensiones y rayos."
+    },
+    {
+      "id": "ar-saf-003",
+      "category": "safety",
+      "question": "¿Qué dispositivo protege los equipos contra sobretensiones causadas por rayos?",
+      "options": ["Fusible", "Descargador de gases (pararrayos)", "Capacitor", "Transformador"],
+      "correctIndex": 1,
+      "explanation": "El descargador de gases (o pararrayos) se instala en la línea de alimentación de la antena para derivar a tierra las sobretensiones producidas por descargas atmosféricas cercanas."
+    },
+    {
+      "id": "ar-saf-004",
+      "category": "safety",
+      "question": "¿Qué precaución se debe tomar al trabajar con antenas cerca de líneas de alta tensión?",
+      "options": ["Usar guantes de goma", "Mantener una distancia mínima de seguridad según la normativa", "Trabajar solo en días nublados", "No es necesaria ninguna precaución especial"],
+      "correctIndex": 1,
+      "explanation": "Se debe mantener una distancia mínima de seguridad respecto a las líneas de alta tensión para evitar arcos eléctricos o contacto accidental, que pueden ser fatales."
+    },
+    {
+      "id": "ar-saf-005",
+      "category": "safety",
+      "question": "¿Qué efecto puede tener la exposición prolongada a campos de radiofrecuencia de alta potencia?",
+      "options": ["Ningún efecto", "Calentamiento de tejidos corporales", "Mejora de la circulación sanguínea", "Aumento de la inmunidad"],
+      "correctIndex": 1,
+      "explanation": "La exposición prolongada a campos de RF de alta potencia puede causar calentamiento de tejidos corporales (efecto térmico), especialmente en órganos con poca irrigación sanguínea como los ojos."
+    },
+    {
+      "id": "ar-proc-001",
+      "category": "procedures",
+      "question": "¿Qué significa el código Q 'QTH'?",
+      "options": ["¿Cuál es su frecuencia?", "¿Cuál es su ubicación?", "¿Cuál es su nombre?", "¿Cuál es su hora?"],
+      "correctIndex": 1,
+      "explanation": "QTH significa '¿Cuál es su posición/ubicación?' y se usa comúnmente para preguntar o informar la ubicación geográfica de una estación."
+    },
+    {
+      "id": "ar-proc-002",
+      "category": "procedures",
+      "question": "¿Cuál es la llamada de emergencia internacional en radiotelefonía?",
+      "options": ["SOS", "MAYDAY", "PAN PAN", "SECURITÉ"],
+      "correctIndex": 1,
+      "explanation": "MAYDAY es la llamada de emergencia internacional en radiotelefonía, utilizada cuando existe peligro grave e inminente para la vida. SOS es su equivalente en radiotelegrafía (CW)."
+    },
+    {
+      "id": "ar-proc-003",
+      "category": "procedures",
+      "question": "En el alfabeto fonético de la ICAO/OTAN, ¿cómo se deletrea la letra 'L'?",
+      "options": ["London", "Lima", "Lambda", "Lincoln"],
+      "correctIndex": 1,
+      "explanation": "En el alfabeto fonético internacional ICAO/OTAN, la letra L se representa como 'Lima'. Este alfabeto se usa para evitar confusiones al deletrear indicativos y palabras por radio."
+    },
+    {
+      "id": "ar-proc-004",
+      "category": "procedures",
+      "question": "¿Qué significa un reporte RST de '599'?",
+      "options": ["Señal inaudible", "Señal perfecta: legibilidad perfecta, señal muy fuerte, tono perfecto", "Señal débil con interferencia", "Señal moderada"],
+      "correctIndex": 1,
+      "explanation": "RST 599 es el reporte perfecto: Readability 5 (perfectamente legible), Signal Strength 9 (señal extremadamente fuerte), Tone 9 (tono perfecto). El componente T solo se usa en CW."
+    },
+    {
+      "id": "ar-proc-005",
+      "category": "procedures",
+      "question": "¿Qué debe hacer un radioaficionado antes de transmitir en una frecuencia?",
+      "options": ["Transmitir inmediatamente", "Escuchar para verificar que la frecuencia esté libre y preguntar si está en uso", "Enviar su indicativo 3 veces", "Esperar exactamente 5 minutos"],
+      "correctIndex": 1,
+      "explanation": "Antes de transmitir, se debe escuchar la frecuencia para verificar que no esté en uso y preguntar '¿Está libre esta frecuencia?' o 'Is this frequency in use?' para evitar interferencias."
+    }
+  ]
+}
