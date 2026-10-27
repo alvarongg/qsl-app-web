@@ -1,247 +1,2173 @@
 {
   "country": "Argentina",
   "countryCode": "ar",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "questions": [
     {
       "id": "ar-reg-001",
       "category": "regulation",
+      "level": "novice",
       "question": "¿Cuál es el organismo regulador de las comunicaciones en Argentina?",
-      "options": ["ENACOM", "ANMAT", "AFIP", "SENASA"],
-      "correctIndex": 0,
-      "explanation": "ENACOM (Ente Nacional de Comunicaciones) es el organismo que regula las telecomunicaciones en Argentina, incluyendo las licencias de radioaficionados."
+      "options": [
+        "ANMAT",
+        "AFIP",
+        "SENASA",
+        "ENACOM"
+      ],
+      "correctIndex": 3,
+      "explanation": "ENACOM (Ente Nacional de Comunicaciones) es el organismo que regula las telecomunicaciones en Argentina, incluyendo las licencias de radioaficionados.",
+      "verified": false
     },
     {
       "id": "ar-reg-002",
       "category": "regulation",
+      "level": "novice",
       "question": "¿Cuántas categorías de licencia de radioaficionado existen en Argentina?",
-      "options": ["2", "3", "4", "5"],
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
       "correctIndex": 1,
-      "explanation": "En Argentina existen 3 categorías de licencia de radioaficionado: Novicio, General y Superior, cada una con diferentes privilegios de frecuencia y potencia."
+      "explanation": "En Argentina existen 3 categorías de licencia de radioaficionado: Novicio, General y Superior, cada una con diferentes privilegios de frecuencia y potencia.",
+      "verified": false
     },
     {
       "id": "ar-reg-003",
       "category": "regulation",
+      "level": "novice",
       "question": "¿Qué prefijo de indicativo corresponde a estaciones de radioaficionados en Argentina?",
-      "options": ["LU", "PY", "CE", "CX"],
-      "correctIndex": 0,
-      "explanation": "El prefijo LU (y variantes como LW, LO, etc.) está asignado por la UIT a la República Argentina para estaciones de radioaficionados."
+      "options": [
+        "PY",
+        "CE",
+        "CX",
+        "LU"
+      ],
+      "correctIndex": 3,
+      "explanation": "El prefijo LU (y variantes como LW, LO, etc.) está asignado por la UIT a la República Argentina para estaciones de radioaficionados.",
+      "verified": false
     },
     {
       "id": "ar-reg-004",
       "category": "regulation",
+      "level": "novice",
       "question": "¿Cuál es la potencia máxima permitida para un radioaficionado categoría Superior en Argentina?",
-      "options": ["100 W", "500 W", "1000 W", "1500 W"],
+      "options": [
+        "100 W",
+        "500 W",
+        "1000 W",
+        "1500 W"
+      ],
       "correctIndex": 2,
-      "explanation": "La categoría Superior permite una potencia máxima de 1000 W (1 kW) PEP en las bandas autorizadas según la reglamentación de ENACOM."
+      "explanation": "La categoría Superior permite una potencia máxima de 1000 W (1 kW) PEP en las bandas autorizadas según la reglamentación de ENACOM.",
+      "verified": false
     },
     {
       "id": "ar-reg-005",
       "category": "regulation",
+      "level": "novice",
       "question": "¿Está permitido transmitir mensajes con fines comerciales en las bandas de radioaficionados?",
-      "options": ["Sí, siempre", "Solo en emergencias", "No, está prohibido", "Solo con autorización especial"],
-      "correctIndex": 2,
-      "explanation": "El servicio de radioaficionados es exclusivamente para fines de experimentación, instrucción y comunicación personal. Las transmisiones con fines comerciales están prohibidas."
+      "options": [
+        "No, está prohibido",
+        "Sí, siempre",
+        "Solo en emergencias",
+        "Solo con autorización especial"
+      ],
+      "correctIndex": 0,
+      "explanation": "El servicio de radioaficionados es exclusivamente para fines de experimentación, instrucción y comunicación personal. Las transmisiones con fines comerciales están prohibidas.",
+      "verified": false
     },
     {
       "id": "ar-elec-001",
       "category": "electronics",
+      "level": "novice",
       "question": "¿Cuál es la unidad de medida de la resistencia eléctrica?",
-      "options": ["Faradio", "Ohmio", "Henrio", "Vatio"],
-      "correctIndex": 1,
+      "options": [
+        "Faradio",
+        "Henrio",
+        "Vatio",
+        "Ohmio"
+      ],
+      "correctIndex": 3,
       "explanation": "El ohmio (Ω) es la unidad de medida de la resistencia eléctrica en el Sistema Internacional de Unidades."
     },
     {
       "id": "ar-elec-002",
       "category": "electronics",
+      "level": "novice",
       "question": "¿Qué componente electrónico almacena energía en un campo eléctrico?",
-      "options": ["Resistor", "Inductor", "Capacitor", "Diodo"],
-      "correctIndex": 2,
+      "options": [
+        "Capacitor",
+        "Resistor",
+        "Inductor",
+        "Diodo"
+      ],
+      "correctIndex": 0,
       "explanation": "El capacitor (o condensador) almacena energía en forma de campo eléctrico entre sus placas conductoras separadas por un dieléctrico."
     },
     {
       "id": "ar-elec-003",
       "category": "electronics",
+      "level": "novice",
       "question": "Según la Ley de Ohm, si se aplica una tensión de 12 V a una resistencia de 4 Ω, ¿cuál es la corriente?",
-      "options": ["2 A", "3 A", "4 A", "48 A"],
+      "options": [
+        "2 A",
+        "3 A",
+        "4 A",
+        "48 A"
+      ],
       "correctIndex": 1,
       "explanation": "Según la Ley de Ohm (I = V/R), la corriente es 12 V / 4 Ω = 3 A."
     },
     {
       "id": "ar-elec-004",
       "category": "electronics",
+      "level": "novice",
       "question": "¿Qué tipo de modulación se utiliza comúnmente en la banda de 2 metros para comunicaciones de voz?",
-      "options": ["AM (Amplitud Modulada)", "FM (Frecuencia Modulada)", "SSB (Banda Lateral Única)", "CW (Onda Continua)"],
-      "correctIndex": 1,
+      "options": [
+        "AM (Amplitud Modulada)",
+        "SSB (Banda Lateral Única)",
+        "FM (Frecuencia Modulada)",
+        "CW (Onda Continua)"
+      ],
+      "correctIndex": 2,
       "explanation": "En la banda de 2 metros (144-148 MHz) se utiliza predominantemente FM (Frecuencia Modulada) para comunicaciones de voz locales y a través de repetidoras."
     },
     {
       "id": "ar-elec-005",
       "category": "electronics",
+      "level": "novice",
       "question": "¿Cuál es la función de un oscilador en un transmisor de radio?",
-      "options": ["Amplificar la señal de audio", "Generar la frecuencia portadora", "Filtrar las señales no deseadas", "Convertir la señal digital a analógica"],
-      "correctIndex": 1,
+      "options": [
+        "Amplificar la señal de audio",
+        "Filtrar las señales no deseadas",
+        "Generar la frecuencia portadora",
+        "Convertir la señal digital a analógica"
+      ],
+      "correctIndex": 2,
       "explanation": "El oscilador genera la señal de radiofrecuencia portadora que luego será modulada con la información (voz, datos, etc.) que se desea transmitir."
     },
     {
       "id": "ar-prop-001",
       "category": "propagation",
+      "level": "novice",
       "question": "¿Qué capa de la ionósfera es la principal responsable de la propagación de ondas de HF a larga distancia durante el día?",
-      "options": ["Capa D", "Capa E", "Capa F1", "Capa F2"],
+      "options": [
+        "Capa D",
+        "Capa E",
+        "Capa F1",
+        "Capa F2"
+      ],
       "correctIndex": 3,
       "explanation": "La capa F2 es la más alta y densa de la ionósfera, y es la principal responsable de la refracción de ondas de HF que permite las comunicaciones a larga distancia (DX)."
     },
     {
       "id": "ar-prop-002",
       "category": "propagation",
+      "level": "general",
       "question": "¿Qué es la MUF (Máxima Frecuencia Utilizable)?",
-      "options": ["La frecuencia más baja que puede refractarse en la ionósfera", "La frecuencia más alta que puede refractarse en la ionósfera para un trayecto dado", "La frecuencia óptima para comunicaciones locales", "La frecuencia máxima de un transmisor"],
-      "correctIndex": 1,
+      "options": [
+        "La frecuencia más alta que puede refractarse en la ionósfera para un trayecto dado",
+        "La frecuencia más baja que puede refractarse en la ionósfera",
+        "La frecuencia óptima para comunicaciones locales",
+        "La frecuencia máxima de un transmisor"
+      ],
+      "correctIndex": 0,
       "explanation": "La MUF es la frecuencia más alta que puede ser refractada por la ionósfera para un trayecto de propagación específico en un momento dado. Por encima de la MUF, las señales atraviesan la ionósfera."
     },
     {
       "id": "ar-prop-003",
       "category": "propagation",
+      "level": "novice",
       "question": "¿Qué efecto tienen las manchas solares sobre la propagación de HF?",
-      "options": ["No tienen ningún efecto", "Disminuyen la propagación", "Aumentan la ionización y mejoran la propagación en frecuencias altas", "Solo afectan las frecuencias de VHF"],
-      "correctIndex": 2,
+      "options": [
+        "No tienen ningún efecto",
+        "Aumentan la ionización y mejoran la propagación en frecuencias altas",
+        "Disminuyen la propagación",
+        "Solo afectan las frecuencias de VHF"
+      ],
+      "correctIndex": 1,
       "explanation": "Las manchas solares aumentan la radiación ultravioleta que ioniza las capas superiores de la atmósfera, mejorando la propagación en las bandas altas de HF al elevar la MUF."
     },
     {
       "id": "ar-prop-004",
       "category": "propagation",
+      "level": "novice",
       "question": "¿Qué tipo de propagación se utiliza principalmente en VHF y UHF?",
-      "options": ["Propagación ionosférica", "Propagación por onda de superficie", "Propagación por línea de vista", "Propagación por onda de cielo"],
-      "correctIndex": 2,
+      "options": [
+        "Propagación por línea de vista",
+        "Propagación ionosférica",
+        "Propagación por onda de superficie",
+        "Propagación por onda de cielo"
+      ],
+      "correctIndex": 0,
       "explanation": "En VHF y UHF la propagación es principalmente por línea de vista (line of sight), donde las señales viajan en línea recta entre antenas. El alcance depende de la altura de las antenas y la curvatura terrestre."
     },
     {
       "id": "ar-prop-005",
       "category": "propagation",
+      "level": "novice",
       "question": "¿Qué es la zona de silencio (skip zone)?",
-      "options": ["Una zona donde no se reciben señales de radio", "La zona entre el alcance de la onda de superficie y el primer rebote ionosférico", "Una zona de interferencia destructiva", "El área detrás de un obstáculo grande"],
-      "correctIndex": 1,
+      "options": [
+        "Una zona donde no se reciben señales de radio",
+        "Una zona de interferencia destructiva",
+        "El área detrás de un obstáculo grande",
+        "La zona entre el alcance de la onda de superficie y el primer rebote ionosférico"
+      ],
+      "correctIndex": 3,
       "explanation": "La zona de silencio es el área entre el límite de alcance de la onda de superficie y el punto donde llega el primer salto ionosférico. En esta zona no se recibe la señal del transmisor."
     },
     {
       "id": "ar-ant-001",
       "category": "antennas",
+      "level": "novice",
       "question": "¿Cuál es la impedancia característica típica de un cable coaxial RG-213?",
-      "options": ["50 Ω", "75 Ω", "100 Ω", "300 Ω"],
+      "options": [
+        "50 Ω",
+        "75 Ω",
+        "100 Ω",
+        "300 Ω"
+      ],
       "correctIndex": 0,
       "explanation": "El cable coaxial RG-213 tiene una impedancia característica de 50 Ω, que es el estándar utilizado en la mayoría de los equipos de radioaficionados."
     },
     {
       "id": "ar-ant-002",
       "category": "antennas",
+      "level": "novice",
       "question": "¿Qué indica una ROE (Relación de Onda Estacionaria) de 1:1?",
-      "options": ["La antena está cortocircuitada", "Hay una adaptación perfecta de impedancia", "La antena está desconectada", "Hay máxima reflexión de potencia"],
-      "correctIndex": 1,
+      "options": [
+        "Hay una adaptación perfecta de impedancia",
+        "La antena está cortocircuitada",
+        "La antena está desconectada",
+        "Hay máxima reflexión de potencia"
+      ],
+      "correctIndex": 0,
       "explanation": "Una ROE de 1:1 indica una adaptación perfecta de impedancia entre el transmisor, la línea de transmisión y la antena. Toda la potencia se irradia y no hay reflexiones."
     },
     {
       "id": "ar-ant-003",
       "category": "antennas",
+      "level": "novice",
       "question": "¿Cuál es la longitud aproximada de un dipolo de media onda para la banda de 20 metros (14 MHz)?",
-      "options": ["5 metros", "10 metros", "20 metros", "40 metros"],
+      "options": [
+        "5 metros",
+        "10 metros",
+        "20 metros",
+        "40 metros"
+      ],
       "correctIndex": 1,
       "explanation": "La longitud de un dipolo de media onda se calcula como 143/f(MHz). Para 14 MHz: 143/14 ≈ 10,2 metros. Cada brazo del dipolo mide aproximadamente 5 metros."
     },
     {
       "id": "ar-ant-004",
       "category": "antennas",
+      "level": "novice",
       "question": "¿Qué tipo de antena tiene un diagrama de radiación omnidireccional en el plano horizontal?",
-      "options": ["Yagi", "Dipolo vertical", "Parabólica", "Log-periódica"],
+      "options": [
+        "Yagi",
+        "Dipolo vertical",
+        "Parabólica",
+        "Log-periódica"
+      ],
       "correctIndex": 1,
       "explanation": "Un dipolo vertical irradia de forma omnidireccional en el plano horizontal (360°), lo que lo hace ideal para comunicaciones en todas las direcciones sin necesidad de rotar la antena."
     },
     {
       "id": "ar-ant-005",
       "category": "antennas",
+      "level": "novice",
       "question": "¿Qué función cumple un balun en una instalación de antena?",
-      "options": ["Amplificar la señal", "Adaptar entre una línea balanceada y una desbalanceada", "Filtrar armónicos", "Medir la ROE"],
-      "correctIndex": 1,
+      "options": [
+        "Amplificar la señal",
+        "Filtrar armónicos",
+        "Adaptar entre una línea balanceada y una desbalanceada",
+        "Medir la ROE"
+      ],
+      "correctIndex": 2,
       "explanation": "Un balun (balanced-unbalanced) adapta la conexión entre una línea balanceada (como un dipolo) y una desbalanceada (como un cable coaxial), evitando corrientes de modo común."
     },
     {
       "id": "ar-saf-001",
       "category": "safety",
+      "level": "novice",
       "question": "¿Cuál es el valor de corriente eléctrica considerado peligroso para el cuerpo humano?",
-      "options": ["Más de 1 A", "Más de 500 mA", "Más de 30 mA", "Más de 10 A"],
+      "options": [
+        "Más de 1 A",
+        "Más de 500 mA",
+        "Más de 30 mA",
+        "Más de 10 A"
+      ],
       "correctIndex": 2,
       "explanation": "Corrientes superiores a 30 mA a través del cuerpo humano pueden causar fibrilación ventricular y ser potencialmente letales. Por eso los dispositivos diferenciales se calibran a 30 mA."
     },
     {
       "id": "ar-saf-002",
       "category": "safety",
+      "level": "novice",
       "question": "¿Cuál es la función principal de la puesta a tierra en una estación de radioaficionado?",
-      "options": ["Mejorar la propagación", "Aumentar la potencia de transmisión", "Proteger a las personas y equipos de descargas eléctricas", "Reducir el ruido de recepción"],
-      "correctIndex": 2,
+      "options": [
+        "Mejorar la propagación",
+        "Aumentar la potencia de transmisión",
+        "Reducir el ruido de recepción",
+        "Proteger a las personas y equipos de descargas eléctricas"
+      ],
+      "correctIndex": 3,
       "explanation": "La puesta a tierra proporciona un camino de baja impedancia para las corrientes de falla, protegiendo a las personas contra descargas eléctricas y a los equipos contra sobretensiones y rayos."
     },
     {
       "id": "ar-saf-003",
       "category": "safety",
+      "level": "novice",
       "question": "¿Qué dispositivo protege los equipos contra sobretensiones causadas por rayos?",
-      "options": ["Fusible", "Descargador de gases (pararrayos)", "Capacitor", "Transformador"],
-      "correctIndex": 1,
+      "options": [
+        "Descargador de gases (pararrayos)",
+        "Fusible",
+        "Capacitor",
+        "Transformador"
+      ],
+      "correctIndex": 0,
       "explanation": "El descargador de gases (o pararrayos) se instala en la línea de alimentación de la antena para derivar a tierra las sobretensiones producidas por descargas atmosféricas cercanas."
     },
     {
       "id": "ar-saf-004",
       "category": "safety",
+      "level": "novice",
       "question": "¿Qué precaución se debe tomar al trabajar con antenas cerca de líneas de alta tensión?",
-      "options": ["Usar guantes de goma", "Mantener una distancia mínima de seguridad según la normativa", "Trabajar solo en días nublados", "No es necesaria ninguna precaución especial"],
+      "options": [
+        "Usar guantes de goma",
+        "Mantener una distancia mínima de seguridad según la normativa",
+        "Trabajar solo en días nublados",
+        "No es necesaria ninguna precaución especial"
+      ],
       "correctIndex": 1,
       "explanation": "Se debe mantener una distancia mínima de seguridad respecto a las líneas de alta tensión para evitar arcos eléctricos o contacto accidental, que pueden ser fatales."
     },
     {
       "id": "ar-saf-005",
       "category": "safety",
+      "level": "novice",
       "question": "¿Qué efecto puede tener la exposición prolongada a campos de radiofrecuencia de alta potencia?",
-      "options": ["Ningún efecto", "Calentamiento de tejidos corporales", "Mejora de la circulación sanguínea", "Aumento de la inmunidad"],
-      "correctIndex": 1,
+      "options": [
+        "Ningún efecto",
+        "Mejora de la circulación sanguínea",
+        "Calentamiento de tejidos corporales",
+        "Aumento de la inmunidad"
+      ],
+      "correctIndex": 2,
       "explanation": "La exposición prolongada a campos de RF de alta potencia puede causar calentamiento de tejidos corporales (efecto térmico), especialmente en órganos con poca irrigación sanguínea como los ojos."
     },
     {
       "id": "ar-proc-001",
       "category": "procedures",
+      "level": "novice",
       "question": "¿Qué significa el código Q 'QTH'?",
-      "options": ["¿Cuál es su frecuencia?", "¿Cuál es su ubicación?", "¿Cuál es su nombre?", "¿Cuál es su hora?"],
-      "correctIndex": 1,
+      "options": [
+        "¿Cuál es su frecuencia?",
+        "¿Cuál es su nombre?",
+        "¿Cuál es su hora?",
+        "¿Cuál es su ubicación?"
+      ],
+      "correctIndex": 3,
       "explanation": "QTH significa '¿Cuál es su posición/ubicación?' y se usa comúnmente para preguntar o informar la ubicación geográfica de una estación."
     },
     {
       "id": "ar-proc-002",
       "category": "procedures",
+      "level": "novice",
       "question": "¿Cuál es la llamada de emergencia internacional en radiotelefonía?",
-      "options": ["SOS", "MAYDAY", "PAN PAN", "SECURITÉ"],
-      "correctIndex": 1,
+      "options": [
+        "MAYDAY",
+        "SOS",
+        "PAN PAN",
+        "SECURITÉ"
+      ],
+      "correctIndex": 0,
       "explanation": "MAYDAY es la llamada de emergencia internacional en radiotelefonía, utilizada cuando existe peligro grave e inminente para la vida. SOS es su equivalente en radiotelegrafía (CW)."
     },
     {
       "id": "ar-proc-003",
       "category": "procedures",
+      "level": "novice",
       "question": "En el alfabeto fonético de la ICAO/OTAN, ¿cómo se deletrea la letra 'L'?",
-      "options": ["London", "Lima", "Lambda", "Lincoln"],
+      "options": [
+        "London",
+        "Lima",
+        "Lambda",
+        "Lincoln"
+      ],
       "correctIndex": 1,
       "explanation": "En el alfabeto fonético internacional ICAO/OTAN, la letra L se representa como 'Lima'. Este alfabeto se usa para evitar confusiones al deletrear indicativos y palabras por radio."
     },
     {
       "id": "ar-proc-004",
       "category": "procedures",
+      "level": "novice",
       "question": "¿Qué significa un reporte RST de '599'?",
-      "options": ["Señal inaudible", "Señal perfecta: legibilidad perfecta, señal muy fuerte, tono perfecto", "Señal débil con interferencia", "Señal moderada"],
-      "correctIndex": 1,
+      "options": [
+        "Señal inaudible",
+        "Señal débil con interferencia",
+        "Señal perfecta: legibilidad perfecta, señal muy fuerte, tono perfecto",
+        "Señal moderada"
+      ],
+      "correctIndex": 2,
       "explanation": "RST 599 es el reporte perfecto: Readability 5 (perfectamente legible), Signal Strength 9 (señal extremadamente fuerte), Tone 9 (tono perfecto). El componente T solo se usa en CW."
     },
     {
       "id": "ar-proc-005",
       "category": "procedures",
+      "level": "novice",
       "question": "¿Qué debe hacer un radioaficionado antes de transmitir en una frecuencia?",
-      "options": ["Transmitir inmediatamente", "Escuchar para verificar que la frecuencia esté libre y preguntar si está en uso", "Enviar su indicativo 3 veces", "Esperar exactamente 5 minutos"],
-      "correctIndex": 1,
+      "options": [
+        "Transmitir inmediatamente",
+        "Enviar su indicativo 3 veces",
+        "Esperar exactamente 5 minutos",
+        "Escuchar para verificar que la frecuencia esté libre y preguntar si está en uso"
+      ],
+      "correctIndex": 3,
       "explanation": "Antes de transmitir, se debe escuchar la frecuencia para verificar que no esté en uso y preguntar '¿Está libre esta frecuencia?' o 'Is this frequency in use?' para evitar interferencias."
+    },
+    {
+      "id": "ar-reg-006",
+      "category": "regulation",
+      "level": "novice",
+      "question": "¿Cómo define la UIT al servicio de aficionados?",
+      "options": [
+        "Servicio de radiocomunicación para la instrucción individual, la intercomunicación y los estudios técnicos, sin fines de lucro",
+        "Servicio de radiodifusión de programas para el público en general",
+        "Servicio móvil comercial para empresas de transporte",
+        "Servicio de telecomunicaciones reservado a la seguridad pública"
+      ],
+      "correctIndex": 0,
+      "explanation": "Los aficionados son personas debidamente autorizadas que se interesan en la radiotécnica con carácter exclusivamente personal y sin interés pecuniario.",
+      "verified": false,
+      "source": "Reglamento de Radiocomunicaciones de la UIT (definiciones)"
+    },
+    {
+      "id": "ar-reg-007",
+      "category": "regulation",
+      "level": "novice",
+      "question": "¿Qué organismo internacional atribuye las bandas de frecuencias y reparte los prefijos de indicativos entre los países?",
+      "options": [
+        "OMC (Organización Mundial del Comercio)",
+        "UIT (Unión Internacional de Telecomunicaciones)",
+        "ISO (Organización Internacional de Normalización)",
+        "IEEE (Instituto de Ingenieros Eléctricos y Electrónicos)"
+      ],
+      "correctIndex": 1,
+      "explanation": "La UIT, mediante su Reglamento de Radiocomunicaciones, atribuye las bandas y asigna a cada país las series de prefijos de indicativos.",
+      "verified": false,
+      "source": "Reglamento de Radiocomunicaciones de la UIT (definiciones)"
+    },
+    {
+      "id": "ar-reg-008",
+      "category": "regulation",
+      "level": "novice",
+      "question": "¿En qué Región de la UIT se encuentra Argentina?",
+      "options": [
+        "Región 1 (Europa y África)",
+        "Región 3 (Asia y Oceanía)",
+        "Región 2 (Américas)",
+        "Argentina no pertenece a ninguna Región"
+      ],
+      "correctIndex": 2,
+      "explanation": "La UIT divide el mundo en tres Regiones a efectos de atribución de frecuencias; América corresponde a la Región 2.",
+      "verified": false,
+      "source": "Reglamento de Radiocomunicaciones de la UIT (definiciones)"
+    },
+    {
+      "id": "ar-reg-009",
+      "category": "regulation",
+      "level": "novice",
+      "question": "¿Para qué sirve el indicativo de una estación de radioaficionado?",
+      "options": [
+        "Para indicar la potencia máxima autorizada",
+        "Para fijar la frecuencia de trabajo",
+        "Es solo un apodo opcional sin valor reglamentario",
+        "Para identificar a la estación y a su titular durante las comunicaciones"
+      ],
+      "correctIndex": 3,
+      "explanation": "El indicativo identifica de forma única a la estación y debe transmitirse según establece el reglamento.",
+      "verified": false
+    },
+    {
+      "id": "ar-reg-010",
+      "category": "regulation",
+      "level": "novice",
+      "question": "Un radioaficionado escucha una comunicación privada que no estaba destinada al público. ¿Qué corresponde hacer?",
+      "options": [
+        "Respetar el secreto de la comunicación y no divulgar su contenido",
+        "Publicarla en redes sociales",
+        "Grabarla y difundirla si resulta interesante",
+        "Retransmitirla en otra frecuencia"
+      ],
+      "correctIndex": 0,
+      "explanation": "El secreto de las comunicaciones es un principio básico: lo escuchado y no destinado al público no debe divulgarse.",
+      "verified": false
+    },
+    {
+      "id": "ar-reg-011",
+      "category": "regulation",
+      "level": "novice",
+      "question": "¿Qué prioridad tiene una comunicación de socorro frente al tráfico normal de aficionados?",
+      "options": [
+        "Ninguna: el tráfico normal continúa igual",
+        "Absoluta: se debe ceder la frecuencia y facilitar esa comunicación",
+        "Solo se atiende si el corresponsal es de categoría superior",
+        "Se atiende únicamente al terminar el QSO en curso"
+      ],
+      "correctIndex": 1,
+      "explanation": "Las comunicaciones de socorro tienen prioridad absoluta sobre cualquier otro tráfico.",
+      "verified": false
+    },
+    {
+      "id": "ar-elec-006",
+      "category": "electronics",
+      "level": "novice",
+      "question": "¿Qué potencia disipa un resistor por el que circulan 2 A cuando tiene aplicados 12 V?",
+      "options": [
+        "6 W",
+        "14 W",
+        "24 W",
+        "10 W"
+      ],
+      "correctIndex": 2,
+      "explanation": "P = V · I = 12 V × 2 A = 24 W."
+    },
+    {
+      "id": "ar-elec-007",
+      "category": "electronics",
+      "level": "novice",
+      "question": "Un resistor conectado a 24 V deja pasar 3 A. ¿Cuál es su valor?",
+      "options": [
+        "72 Ω",
+        "27 Ω",
+        "0,125 Ω",
+        "8 Ω"
+      ],
+      "correctIndex": 3,
+      "explanation": "Por la Ley de Ohm, R = V / I = 24 V / 3 A = 8 Ω."
+    },
+    {
+      "id": "ar-elec-008",
+      "category": "electronics",
+      "level": "novice",
+      "question": "Dos resistores de 100 Ω y 220 Ω se conectan en serie. ¿Cuál es la resistencia total?",
+      "options": [
+        "320 Ω",
+        "69 Ω",
+        "120 Ω",
+        "22 000 Ω"
+      ],
+      "correctIndex": 0,
+      "explanation": "En serie las resistencias se suman: 100 Ω + 220 Ω = 320 Ω."
+    },
+    {
+      "id": "ar-elec-009",
+      "category": "electronics",
+      "level": "novice",
+      "question": "Dos resistores iguales de 100 Ω se conectan en paralelo. ¿Cuál es la resistencia equivalente?",
+      "options": [
+        "200 Ω",
+        "50 Ω",
+        "100 Ω",
+        "25 Ω"
+      ],
+      "correctIndex": 1,
+      "explanation": "Dos resistencias iguales en paralelo dan la mitad: (100 × 100) / (100 + 100) = 50 Ω."
+    },
+    {
+      "id": "ar-elec-010",
+      "category": "electronics",
+      "level": "novice",
+      "question": "¿Cuál es la unidad de capacidad de un capacitor?",
+      "options": [
+        "Henrio",
+        "Ohmio",
+        "Faradio",
+        "Hertz"
+      ],
+      "correctIndex": 2,
+      "explanation": "La capacidad se mide en faradios (F); en la práctica se usan submúltiplos como µF, nF y pF."
+    },
+    {
+      "id": "ar-elec-011",
+      "category": "electronics",
+      "level": "novice",
+      "question": "¿Cuántos kilohertz son 7,1 MHz?",
+      "options": [
+        "71 kHz",
+        "710 kHz",
+        "71 000 kHz",
+        "7100 kHz"
+      ],
+      "correctIndex": 3,
+      "explanation": "1 MHz = 1000 kHz, entonces 7,1 MHz = 7100 kHz."
+    },
+    {
+      "id": "ar-elec-012",
+      "category": "electronics",
+      "level": "novice",
+      "question": "¿Qué hace un diodo rectificador?",
+      "options": [
+        "Permite el paso de corriente en un solo sentido",
+        "Almacena carga eléctrica",
+        "Amplifica la corriente",
+        "Aumenta la tensión alterna"
+      ],
+      "correctIndex": 0,
+      "explanation": "El diodo conduce en polarización directa y bloquea en inversa, por eso se usa para convertir alterna en continua."
+    },
+    {
+      "id": "ar-elec-013",
+      "category": "electronics",
+      "level": "novice",
+      "question": "Un transformador tiene 1000 espiras en el primario y 50 en el secundario. Con 220 V en el primario, ¿qué tensión hay en el secundario?",
+      "options": [
+        "4400 V",
+        "11 V",
+        "220 V",
+        "1,1 V"
+      ],
+      "correctIndex": 1,
+      "explanation": "Vs = Vp × (Ns / Np) = 220 V × 50 / 1000 = 11 V."
+    },
+    {
+      "id": "ar-elec-014",
+      "category": "electronics",
+      "level": "novice",
+      "question": "¿Cuál es la longitud de onda aproximada de una señal de 7,1 MHz?",
+      "options": [
+        "21 m",
+        "84 m",
+        "42 m",
+        "4,2 m"
+      ],
+      "correctIndex": 2,
+      "explanation": "λ (m) ≈ 300 / f (MHz) = 300 / 7,1 ≈ 42,3 m, es decir, unos 42 m (banda de 40 metros)."
+    },
+    {
+      "id": "ar-elec-015",
+      "category": "electronics",
+      "level": "novice",
+      "question": "Dos capacitores de 10 µF y 22 µF se conectan en paralelo. ¿Cuál es la capacidad total?",
+      "options": [
+        "6,9 µF",
+        "220 µF",
+        "12 µF",
+        "32 µF"
+      ],
+      "correctIndex": 3,
+      "explanation": "En paralelo las capacidades se suman: 10 µF + 22 µF = 32 µF (en serie darían 6,9 µF)."
+    },
+    {
+      "id": "ar-elec-016",
+      "category": "electronics",
+      "level": "novice",
+      "question": "¿Para qué sirve un fusible?",
+      "options": [
+        "Interrumpir el circuito cuando la corriente supera un valor seguro",
+        "Aumentar la tensión",
+        "Filtrar señales de RF",
+        "Medir la corriente"
+      ],
+      "correctIndex": 0,
+      "explanation": "El fusible se funde al circular una corriente excesiva y abre el circuito para proteger equipos y cables."
+    },
+    {
+      "id": "ar-elec-017",
+      "category": "electronics",
+      "level": "novice",
+      "question": "Si la potencia de un transmisor se duplica, ¿cuántos decibeles aumenta aproximadamente?",
+      "options": [
+        "2 dB",
+        "3 dB",
+        "6 dB",
+        "10 dB"
+      ],
+      "correctIndex": 1,
+      "explanation": "10·log(2) ≈ 3 dB. Duplicar la potencia equivale a +3 dB; multiplicarla por 10, a +10 dB."
+    },
+    {
+      "id": "ar-elec-018",
+      "category": "electronics",
+      "level": "novice",
+      "question": "¿Cómo se conecta un voltímetro para medir la tensión en un componente?",
+      "options": [
+        "En serie con el componente",
+        "Siempre entre la fuente y tierra",
+        "En paralelo con el componente",
+        "Da igual cómo se conecte"
+      ],
+      "correctIndex": 2,
+      "explanation": "La tensión se mide entre dos puntos, por eso el voltímetro va en paralelo (el amperímetro, en cambio, va en serie)."
+    },
+    {
+      "id": "ar-elec-019",
+      "category": "electronics",
+      "level": "novice",
+      "question": "La corriente alterna de la red domiciliaria en Argentina tiene una frecuencia de:",
+      "options": [
+        "60 Hz",
+        "100 Hz",
+        "25 Hz",
+        "50 Hz"
+      ],
+      "correctIndex": 3,
+      "explanation": "En Argentina la red es de 220 V y 50 Hz."
+    },
+    {
+      "id": "ar-prop-006",
+      "category": "propagation",
+      "level": "novice",
+      "question": "¿Qué capa ionosférica prácticamente desaparece de noche y absorbe las frecuencias más bajas de HF durante el día?",
+      "options": [
+        "Capa D",
+        "Capa F2",
+        "Capa E",
+        "Capa F1"
+      ],
+      "correctIndex": 0,
+      "explanation": "La capa D, la más baja, solo existe con luz solar y absorbe las señales de HF bajas (80 y 40 m) de día."
+    },
+    {
+      "id": "ar-prop-007",
+      "category": "propagation",
+      "level": "novice",
+      "question": "¿Cuál es el rango de frecuencias de la banda de HF?",
+      "options": [
+        "30 a 300 MHz",
+        "3 a 30 MHz",
+        "300 a 3000 MHz",
+        "300 kHz a 3 MHz"
+      ],
+      "correctIndex": 1,
+      "explanation": "HF (ondas cortas) abarca de 3 a 30 MHz; VHF, de 30 a 300 MHz; UHF, de 300 a 3000 MHz."
+    },
+    {
+      "id": "ar-prop-008",
+      "category": "propagation",
+      "level": "novice",
+      "question": "¿Cada cuántos años, aproximadamente, se repite el ciclo de actividad solar?",
+      "options": [
+        "1 año",
+        "5 años",
+        "11 años",
+        "50 años"
+      ],
+      "correctIndex": 2,
+      "explanation": "El ciclo de manchas solares dura en promedio unos 11 años y condiciona la propagación en las bandas altas de HF."
+    },
+    {
+      "id": "ar-prop-009",
+      "category": "propagation",
+      "level": "novice",
+      "question": "¿Qué es la propagación por onda de superficie (onda de tierra)?",
+      "options": [
+        "La onda que se refleja en la capa F2 y regresa a tierra",
+        "La que viaja solo en línea recta en VHF",
+        "La que se propaga por conductores",
+        "La onda que sigue la curvatura de la Tierra, importante en frecuencias bajas"
+      ],
+      "correctIndex": 3,
+      "explanation": "La onda de superficie acompaña el terreno y es útil en LF/MF y en las bandas bajas de HF para distancias cortas y medias."
+    },
+    {
+      "id": "ar-prop-010",
+      "category": "propagation",
+      "level": "novice",
+      "question": "Con baja actividad solar, ¿qué bandas de HF suelen abrir para larga distancia durante la noche?",
+      "options": [
+        "Las bandas bajas, como 80 y 40 metros",
+        "Solo 10 y 6 metros",
+        "Solo VHF y UHF",
+        "Ninguna banda de HF"
+      ],
+      "correctIndex": 0,
+      "explanation": "De noche la capa D desaparece y las frecuencias bajas se propagan con poca absorción; las altas suelen cerrarse."
+    },
+    {
+      "id": "ar-prop-011",
+      "category": "propagation",
+      "level": "novice",
+      "question": "¿Qué fenómeno puede producir aperturas inesperadas de VHF a cientos de kilómetros, sobre todo en verano?",
+      "options": [
+        "La capa D nocturna",
+        "La capa E esporádica",
+        "La rotación de la Tierra",
+        "El efecto Doppler"
+      ],
+      "correctIndex": 1,
+      "explanation": "Las nubes de ionización de la capa E esporádica (Es) reflejan VHF bajo (50 MHz y a veces 144 MHz) a distancias de 500 a 2000 km."
+    },
+    {
+      "id": "ar-ant-006",
+      "category": "antennas",
+      "level": "novice",
+      "question": "¿Cuál es la impedancia aproximada, en el centro, de un dipolo de media onda en espacio libre?",
+      "options": [
+        "Unos 300 Ω",
+        "Unos 600 Ω",
+        "Unos 73 Ω",
+        "Unos 12 Ω"
+      ],
+      "correctIndex": 2,
+      "explanation": "En espacio libre la resistencia de radiación de un dipolo de media onda es de unos 73 Ω."
+    },
+    {
+      "id": "ar-ant-007",
+      "category": "antennas",
+      "level": "novice",
+      "question": "¿Qué longitud aproximada tiene un cuarto de onda para 144 MHz?",
+      "options": [
+        "25 cm",
+        "100 cm",
+        "2 m",
+        "50 cm"
+      ],
+      "correctIndex": 3,
+      "explanation": "λ/4 ≈ 71,25 / f (MHz) = 71,25 / 144 ≈ 0,49 m, o sea unos 50 cm (con el factor de acortamiento)."
+    },
+    {
+      "id": "ar-ant-008",
+      "category": "antennas",
+      "level": "novice",
+      "question": "¿Qué antena concentra la energía en una dirección determinada?",
+      "options": [
+        "Yagi (directiva)",
+        "Dipolo vertical",
+        "Látigo omnidireccional",
+        "Antena isotrópica"
+      ],
+      "correctIndex": 0,
+      "explanation": "La Yagi es directiva: su ganancia en una dirección se logra a costa de irradiar menos en las demás."
+    },
+    {
+      "id": "ar-ant-009",
+      "category": "antennas",
+      "level": "novice",
+      "question": "Una ROE alta indica:",
+      "options": [
+        "Antena perfectamente adaptada",
+        "Mala adaptación: parte de la potencia se refleja",
+        "Mayor ganancia de la antena",
+        "Cable coaxial de mejor calidad"
+      ],
+      "correctIndex": 1,
+      "explanation": "Una ROE alta significa que la impedancia de la antena no coincide con la de la línea y que se refleja potencia."
+    },
+    {
+      "id": "ar-ant-010",
+      "category": "antennas",
+      "level": "novice",
+      "question": "¿Cómo varían las pérdidas de un cable coaxial al aumentar la frecuencia?",
+      "options": [
+        "Disminuyen",
+        "No cambian",
+        "Aumentan",
+        "Se anulan"
+      ],
+      "correctIndex": 2,
+      "explanation": "La atenuación del coaxial crece con la frecuencia, por eso en VHF/UHF conviene usar cables más gruesos o cortos."
+    },
+    {
+      "id": "ar-ant-011",
+      "category": "antennas",
+      "level": "novice",
+      "question": "¿Qué polarización tiene una antena de látigo vertical?",
+      "options": [
+        "Horizontal",
+        "Circular",
+        "Oblicua a 45°",
+        "Vertical"
+      ],
+      "correctIndex": 3,
+      "explanation": "La polarización la da la orientación del campo eléctrico, que en un látigo vertical es vertical."
+    },
+    {
+      "id": "ar-saf-006",
+      "category": "safety",
+      "level": "novice",
+      "question": "Durante una tormenta eléctrica, ¿qué debe hacerse con las antenas?",
+      "options": [
+        "Desconectarlas del equipo y dejar de operar",
+        "Seguir operando con más potencia",
+        "Tocarlas para comprobar la puesta a tierra",
+        "Subir al mástil para recogerlas"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ante tormentas se desconecta la antena, se deja de operar y no se toca nada conectado a la instalación exterior."
+    },
+    {
+      "id": "ar-saf-007",
+      "category": "safety",
+      "level": "novice",
+      "question": "Antes de abrir un equipo para repararlo, se debe:",
+      "options": [
+        "Dejarlo encendido para poder medir",
+        "Desconectarlo de la red y descargar los capacitores",
+        "Humedecerse las manos",
+        "Quitar la puesta a tierra"
+      ],
+      "correctIndex": 1,
+      "explanation": "Los capacitores de las fuentes pueden retener carga peligrosa aun con el equipo apagado."
+    },
+    {
+      "id": "ar-saf-008",
+      "category": "safety",
+      "level": "novice",
+      "question": "¿Qué protección corta la alimentación cuando hay una fuga de corriente a tierra?",
+      "options": [
+        "Fusible de vidrio",
+        "Balun",
+        "Interruptor diferencial",
+        "Filtro pasabajos"
+      ],
+      "correctIndex": 2,
+      "explanation": "El interruptor diferencial detecta la diferencia entre la corriente de ida y la de retorno y desconecta ante fugas."
+    },
+    {
+      "id": "ar-saf-009",
+      "category": "safety",
+      "level": "novice",
+      "question": "¿Por qué no se debe tocar una antena mientras se transmite?",
+      "options": [
+        "Disminuye la ROE",
+        "Mejora la señal",
+        "No hay ningún riesgo",
+        "Puede producir quemaduras de RF y descargas"
+      ],
+      "correctIndex": 3,
+      "explanation": "Los elementos de una antena en transmisión pueden tener tensiones de RF elevadas que causan quemaduras."
+    },
+    {
+      "id": "ar-proc-006",
+      "category": "procedures",
+      "level": "novice",
+      "question": "¿Qué significa el código Q QRM?",
+      "options": [
+        "Hay interferencia de otras estaciones",
+        "Hay ruido atmosférico (estática)",
+        "Debo cambiar de frecuencia",
+        "Su señal se desvanece"
+      ],
+      "correctIndex": 0,
+      "explanation": "QRM es interferencia producida por otras emisiones o por el hombre; el ruido atmosférico es QRN."
+    },
+    {
+      "id": "ar-proc-007",
+      "category": "procedures",
+      "level": "novice",
+      "question": "¿Qué significa el código Q QRN?",
+      "options": [
+        "Hay interferencia de otras estaciones",
+        "Hay ruido atmosférico (estática) que afecta la recepción",
+        "Reduzca la potencia",
+        "Espere un momento"
+      ],
+      "correctIndex": 1,
+      "explanation": "QRN indica ruido de origen atmosférico, como el producido por tormentas eléctricas."
+    },
+    {
+      "id": "ar-proc-008",
+      "category": "procedures",
+      "level": "novice",
+      "question": "Como señal de procedimiento, «QSY» significa:",
+      "options": [
+        "Cesar la transmisión",
+        "Aumentar la potencia",
+        "Cambiar de frecuencia",
+        "Repetir el mensaje"
+      ],
+      "correctIndex": 2,
+      "explanation": "QSY es «cambie a transmitir en otra frecuencia»."
+    },
+    {
+      "id": "ar-proc-009",
+      "category": "procedures",
+      "level": "novice",
+      "question": "¿Qué significa «QRZ?».",
+      "options": [
+        "¿Cuál es mi frecuencia?",
+        "¿Puede acusar recibo?",
+        "¿Está ocupada la frecuencia?",
+        "¿Quién me llama?"
+      ],
+      "correctIndex": 3,
+      "explanation": "QRZ? se usa para preguntar quién está llamando."
+    },
+    {
+      "id": "ar-proc-010",
+      "category": "procedures",
+      "level": "novice",
+      "question": "¿Qué significa «QSL»?",
+      "options": [
+        "Acuso recibo (confirmo la recepción)",
+        "Cambie de frecuencia",
+        "Hay interferencia",
+        "Reduzca la potencia"
+      ],
+      "correctIndex": 0,
+      "explanation": "QSL confirma la recepción de un mensaje o contacto; también da nombre a las tarjetas de confirmación."
+    },
+    {
+      "id": "ar-proc-011",
+      "category": "procedures",
+      "level": "novice",
+      "question": "¿Qué significa «QRT»?",
+      "options": [
+        "Aumentar la potencia",
+        "Cesar la transmisión (dejar de operar)",
+        "Esperar un momento",
+        "Cambiar de frecuencia"
+      ],
+      "correctIndex": 1,
+      "explanation": "QRT indica que se deja de transmitir; al despedirse se suele anunciar «QRT»."
+    },
+    {
+      "id": "ar-proc-012",
+      "category": "procedures",
+      "level": "novice",
+      "question": "En la práctica, ¿qué significa operar «QRP»?",
+      "options": [
+        "Operar con potencia máxima",
+        "Operar solo en CW",
+        "Operar con baja potencia (típicamente 5 W o menos)",
+        "Operar desde una estación portátil"
+      ],
+      "correctIndex": 2,
+      "explanation": "QRP designa la operación con muy baja potencia; QRO, en cambio, es operar con potencia alta."
+    },
+    {
+      "id": "ar-proc-013",
+      "category": "procedures",
+      "level": "novice",
+      "question": "¿Qué significa «73» en el lenguaje de los radioaficionados?",
+      "options": [
+        "Besos y abrazos",
+        "Cambio y fuera",
+        "Estoy en emergencia",
+        "Saludos cordiales"
+      ],
+      "correctIndex": 3,
+      "explanation": "73 equivale a «saludos» o «mis mejores deseos»; 88 se usa para «cariños»."
+    },
+    {
+      "id": "ar-proc-014",
+      "category": "procedures",
+      "level": "novice",
+      "question": "¿Con qué señal se hace una llamada general a cualquier estación?",
+      "options": [
+        "CQ",
+        "QRZ",
+        "QSL",
+        "QRT"
+      ],
+      "correctIndex": 0,
+      "explanation": "CQ es la llamada general: «a todas las estaciones»."
+    },
+    {
+      "id": "ar-proc-015",
+      "category": "procedures",
+      "level": "novice",
+      "question": "En el alfabeto fonético internacional, ¿cómo se deletrea la letra «W»?",
+      "options": [
+        "Washington",
+        "Whiskey",
+        "Victor",
+        "William"
+      ],
+      "correctIndex": 1,
+      "explanation": "W = Whiskey y V = Victor en el alfabeto fonético ICAO/OTAN."
+    },
+    {
+      "id": "ar-proc-016",
+      "category": "procedures",
+      "level": "novice",
+      "question": "En el alfabeto fonético internacional, ¿cómo se deletrea la letra «Q»?",
+      "options": [
+        "Quito",
+        "Queen",
+        "Quebec",
+        "Quartz"
+      ],
+      "correctIndex": 2,
+      "explanation": "Q = Quebec en el alfabeto fonético ICAO/OTAN."
+    },
+    {
+      "id": "ar-reg-012",
+      "category": "regulation",
+      "level": "general",
+      "question": "¿Qué implica que un servicio tenga atribución «secundaria» en una banda?",
+      "options": [
+        "Puede operar con prioridad sobre los servicios primarios",
+        "Solo puede operar de noche",
+        "Debe pagar un canon adicional",
+        "No debe causar interferencia perjudicial a los servicios primarios ni puede reclamar protección contra ellos"
+      ],
+      "correctIndex": 3,
+      "explanation": "Un servicio secundario debe ceder ante el primario: no puede interferirlo ni exigir protección frente a él.",
+      "verified": false,
+      "source": "Reglamento de Radiocomunicaciones de la UIT (definiciones)"
+    },
+    {
+      "id": "ar-reg-013",
+      "category": "regulation",
+      "level": "general",
+      "question": "¿Cómo define la UIT al servicio de aficionados por satélite?",
+      "options": [
+        "Servicio de difusión de televisión por satélite",
+        "Servicio que utiliza estaciones espaciales en satélites de la Tierra para los mismos fines que el servicio de aficionados",
+        "Servicio para comunicaciones exclusivas de embarcaciones",
+        "Servicio que reemplaza al de aficionados en HF"
+      ],
+      "correctIndex": 1,
+      "explanation": "El servicio de aficionados por satélite persigue los mismos fines que el de aficionados, pero mediante estaciones espaciales.",
+      "verified": false,
+      "source": "Reglamento de Radiocomunicaciones de la UIT (definiciones)"
+    },
+    {
+      "id": "ar-reg-014",
+      "category": "regulation",
+      "level": "general",
+      "question": "¿Qué es una interferencia perjudicial según la UIT?",
+      "options": [
+        "Cualquier señal débil recibida de otra estación",
+        "El ruido térmico del propio receptor",
+        "La que compromete servicios de seguridad o degrada gravemente, interrumpe repetidamente o impide un servicio de radiocomunicación",
+        "La señal de una estación dentro de su banda autorizada"
+      ],
+      "correctIndex": 2,
+      "explanation": "No toda interferencia es perjudicial: lo es la que compromete la seguridad o degrada gravemente un servicio.",
+      "verified": false,
+      "source": "Reglamento de Radiocomunicaciones de la UIT (definiciones)"
+    },
+    {
+      "id": "ar-elec-020",
+      "category": "electronics",
+      "level": "general",
+      "question": "Un circuito RC tiene R = 10 kΩ y C = 100 µF. ¿Cuál es su constante de tiempo?",
+      "options": [
+        "10 ms",
+        "100 s",
+        "1 s",
+        "0,1 s"
+      ],
+      "correctIndex": 2,
+      "explanation": "τ = R · C = 10 000 Ω × 0,0001 F = 1 s."
+    },
+    {
+      "id": "ar-elec-021",
+      "category": "electronics",
+      "level": "general",
+      "question": "¿Cuál es la frecuencia de resonancia de un circuito con L = 10 µH y C = 100 pF?",
+      "options": [
+        "50,3 MHz",
+        "0,503 MHz",
+        "159 MHz",
+        "5,03 MHz"
+      ],
+      "correctIndex": 3,
+      "explanation": "f = 1 / (2π√(LC)) = 1 / (2π√(10·10⁻⁶ × 100·10⁻¹²)) ≈ 5,03 MHz."
+    },
+    {
+      "id": "ar-elec-022",
+      "category": "electronics",
+      "level": "general",
+      "question": "¿Cuál es la reactancia inductiva de una bobina de 1 µH a 10 MHz?",
+      "options": [
+        "62,8 Ω",
+        "6,28 Ω",
+        "628 Ω",
+        "159 Ω"
+      ],
+      "correctIndex": 0,
+      "explanation": "XL = 2π·f·L = 2π × 10⁷ × 10⁻⁶ ≈ 62,8 Ω."
+    },
+    {
+      "id": "ar-elec-023",
+      "category": "electronics",
+      "level": "general",
+      "question": "¿Cuál es la reactancia capacitiva de un capacitor de 100 pF a 10 MHz?",
+      "options": [
+        "15,9 Ω",
+        "159 Ω",
+        "1592 Ω",
+        "62,8 Ω"
+      ],
+      "correctIndex": 1,
+      "explanation": "XC = 1 / (2π·f·C) = 1 / (2π × 10⁷ × 10⁻¹⁰) ≈ 159 Ω."
+    },
+    {
+      "id": "ar-elec-024",
+      "category": "electronics",
+      "level": "general",
+      "question": "¿Qué relación de potencias corresponde a +20 dB?",
+      "options": [
+        "20 veces",
+        "10 veces",
+        "100 veces",
+        "200 veces"
+      ],
+      "correctIndex": 2,
+      "explanation": "Relación = 10^(dB/10) = 10² = 100. En tensión, +20 dB equivale a ×10."
+    },
+    {
+      "id": "ar-elec-025",
+      "category": "electronics",
+      "level": "general",
+      "question": "Un circuito resonante a 7,1 MHz tiene un ancho de banda de 71 kHz a −3 dB. ¿Cuál es su factor Q?",
+      "options": [
+        "10",
+        "1000",
+        "0,01",
+        "100"
+      ],
+      "correctIndex": 3,
+      "explanation": "Q = f₀ / BW = 7100 kHz / 71 kHz = 100."
+    },
+    {
+      "id": "ar-elec-026",
+      "category": "electronics",
+      "level": "general",
+      "question": "Un transformador con relación de espiras 1:2 (primario:secundario), ¿en qué relación transforma las impedancias?",
+      "options": [
+        "1:4",
+        "1:2",
+        "1:8",
+        "2:1"
+      ],
+      "correctIndex": 0,
+      "explanation": "La relación de impedancias es el cuadrado de la de espiras: (2/1)² = 4, es decir 1:4."
+    },
+    {
+      "id": "ar-elec-027",
+      "category": "electronics",
+      "level": "general",
+      "question": "Por una carga de 50 Ω circulan 2 A. ¿Qué potencia disipa?",
+      "options": [
+        "100 W",
+        "200 W",
+        "25 W",
+        "400 W"
+      ],
+      "correctIndex": 1,
+      "explanation": "P = I² · R = 2² × 50 = 200 W."
+    },
+    {
+      "id": "ar-elec-028",
+      "category": "electronics",
+      "level": "general",
+      "question": "Un amplificador consume 100 W de continua y entrega 60 W de RF. ¿Cuál es su rendimiento?",
+      "options": [
+        "40 %",
+        "160 %",
+        "60 %",
+        "6 %"
+      ],
+      "correctIndex": 2,
+      "explanation": "Rendimiento = Psalida / Pentrada = 60 / 100 = 60 %; los 40 W restantes se disipan como calor."
+    },
+    {
+      "id": "ar-elec-029",
+      "category": "electronics",
+      "level": "general",
+      "question": "Una batería de 12 V y 7 Ah alimenta una carga que consume 2 A. ¿Cuánto dura aproximadamente?",
+      "options": [
+        "14 h",
+        "17 minutos",
+        "84 h",
+        "3,5 h"
+      ],
+      "correctIndex": 3,
+      "explanation": "t = capacidad / corriente = 7 Ah / 2 A = 3,5 h (valor ideal; en la práctica menos)."
+    },
+    {
+      "id": "ar-elec-030",
+      "category": "electronics",
+      "level": "general",
+      "question": "¿Para qué se coloca un filtro pasabajos a la salida de un transmisor?",
+      "options": [
+        "Para atenuar los armónicos",
+        "Para aumentar la potencia",
+        "Para atenuar la frecuencia fundamental",
+        "Para convertir CW en SSB"
+      ],
+      "correctIndex": 0,
+      "explanation": "El filtro pasabajos deja pasar la fundamental y reduce los armónicos que podrían causar interferencias."
+    },
+    {
+      "id": "ar-elec-031",
+      "category": "electronics",
+      "level": "general",
+      "question": "¿Para qué se utiliza comúnmente un diodo Zener?",
+      "options": [
+        "Para amplificar RF",
+        "Para regular o estabilizar una tensión",
+        "Para almacenar energía",
+        "Para medir frecuencia"
+      ],
+      "correctIndex": 1,
+      "explanation": "Polarizado en inversa, el Zener mantiene una tensión casi constante en sus bornes."
+    },
+    {
+      "id": "ar-elec-032",
+      "category": "electronics",
+      "level": "general",
+      "question": "En un receptor superheterodino, la señal recibida se mezcla con el oscilador local para obtener:",
+      "options": [
+        "El triple de la frecuencia recibida",
+        "Solo la frecuencia imagen",
+        "Una frecuencia intermedia (FI)",
+        "Corriente continua"
+      ],
+      "correctIndex": 2,
+      "explanation": "La mezcla traslada la señal a una FI fija, donde se logra la mayor parte de la selectividad y de la ganancia."
+    },
+    {
+      "id": "ar-elec-033",
+      "category": "electronics",
+      "level": "general",
+      "question": "¿Por qué la banda lateral única (BLU/SSB) es más eficiente que la AM con portadora?",
+      "options": [
+        "Transmite la portadora con más potencia",
+        "Usa el doble de ancho de banda",
+        "No requiere modulación",
+        "Concentra la potencia en una sola banda lateral y ocupa menos ancho de banda"
+      ],
+      "correctIndex": 3,
+      "explanation": "En AM gran parte de la potencia se gasta en la portadora y en dos bandas laterales redundantes; en SSB solo se transmite una."
+    },
+    {
+      "id": "ar-prop-012",
+      "category": "propagation",
+      "level": "general",
+      "question": "¿Qué es la LUF?",
+      "options": [
+        "La frecuencia mínima utilizable, por debajo de la cual la absorción ionosférica es excesiva",
+        "La frecuencia más alta que refracta la ionosfera",
+        "La frecuencia de las manchas solares",
+        "La frecuencia local del oscilador"
+      ],
+      "correctIndex": 0,
+      "explanation": "La LUF (Lowest Usable Frequency) depende de la absorción de la capa D; entre la LUF y la MUF está la ventana útil."
+    },
+    {
+      "id": "ar-prop-013",
+      "category": "propagation",
+      "level": "general",
+      "question": "¿Qué efecto tiene un índice geomagnético K alto sobre las comunicaciones de HF?",
+      "options": [
+        "Mejora la propagación en todas las bandas",
+        "Degrada la propagación, especialmente en trayectos polares",
+        "No afecta a HF",
+        "Solo afecta a la radiodifusión en AM"
+      ],
+      "correctIndex": 1,
+      "explanation": "Las tormentas geomagnéticas perturban la ionosfera y provocan apagones de HF, sobre todo en latitudes altas."
+    },
+    {
+      "id": "ar-prop-014",
+      "category": "propagation",
+      "level": "general",
+      "question": "¿Qué es la «línea gris» (gray line)?",
+      "options": [
+        "Una banda de frecuencias entre HF y VHF",
+        "La zona de silencio de una antena",
+        "La franja del amanecer o atardecer donde la absorción de la capa D es baja y favorece los contactos DX",
+        "La línea que une dos antenas"
+      ],
+      "correctIndex": 2,
+      "explanation": "Sobre el terminador día/noche la capa D es débil y se logran trayectos de larga distancia con poca atenuación."
+    },
+    {
+      "id": "ar-prop-015",
+      "category": "propagation",
+      "level": "general",
+      "question": "¿Qué es el «ducting» troposférico?",
+      "options": [
+        "Propagación por reflexión en la capa F2",
+        "Propagación por cables enterrados",
+        "Propagación de ondas por la superficie del mar únicamente",
+        "Propagación guiada por una inversión de temperatura que permite alcances de VHF/UHF muy superiores al horizonte"
+      ],
+      "correctIndex": 3,
+      "explanation": "Una capa de inversión atrapa la señal y la hace viajar cientos de kilómetros, algo habitual con alta presión estable."
+    },
+    {
+      "id": "ar-prop-016",
+      "category": "propagation",
+      "level": "general",
+      "question": "¿Qué mide el índice SFI (Solar Flux Index)?",
+      "options": [
+        "El flujo solar a 10,7 cm, un indicador de la actividad solar",
+        "La intensidad de las señales de HF",
+        "La temperatura de la ionosfera",
+        "La velocidad del viento solar"
+      ],
+      "correctIndex": 0,
+      "explanation": "Un SFI alto indica mayor ionización y mejores condiciones en las bandas altas de HF."
+    },
+    {
+      "id": "ar-prop-017",
+      "category": "propagation",
+      "level": "general",
+      "question": "Para contactos de larga distancia (DX) en HF, ¿qué ángulo de radiación conviene?",
+      "options": [
+        "Alto, casi vertical",
+        "Bajo",
+        "Siempre 90°",
+        "Es indiferente"
+      ],
+      "correctIndex": 1,
+      "explanation": "Un ángulo bajo permite saltos más largos en la ionosfera; los ángulos altos favorecen contactos cercanos (NVIS)."
+    },
+    {
+      "id": "ar-ant-012",
+      "category": "antennas",
+      "level": "general",
+      "question": "Un coeficiente de reflexión de 0,2 corresponde a una ROE de:",
+      "options": [
+        "1,2:1",
+        "2:1",
+        "1,5:1",
+        "3:1"
+      ],
+      "correctIndex": 2,
+      "explanation": "ROE = (1 + Γ) / (1 − Γ) = 1,2 / 0,8 = 1,5."
+    },
+    {
+      "id": "ar-ant-013",
+      "category": "antennas",
+      "level": "general",
+      "question": "Con una ROE de 2:1, ¿qué porcentaje de la potencia directa se refleja aproximadamente?",
+      "options": [
+        "33 %",
+        "50 %",
+        "2 %",
+        "11 %"
+      ],
+      "correctIndex": 3,
+      "explanation": "Γ = (2 − 1) / (2 + 1) = 1/3; la potencia reflejada es Γ² = 1/9 ≈ 11 %."
+    },
+    {
+      "id": "ar-ant-014",
+      "category": "antennas",
+      "level": "general",
+      "question": "¿Qué longitud tiene una media onda de cable coaxial con factor de velocidad 0,66 a 14,2 MHz?",
+      "options": [
+        "6,97 m",
+        "10,6 m",
+        "4,6 m",
+        "13,9 m"
+      ],
+      "correctIndex": 0,
+      "explanation": "λ/2 en el aire = 300 / 14,2 / 2 ≈ 10,56 m; × 0,66 ≈ 6,97 m."
+    },
+    {
+      "id": "ar-ant-015",
+      "category": "antennas",
+      "level": "general",
+      "question": "Una carga resistiva de 75 Ω en una línea de 50 Ω produce una ROE de:",
+      "options": [
+        "1,25:1",
+        "1,5:1",
+        "2:1",
+        "3:1"
+      ],
+      "correctIndex": 1,
+      "explanation": "Con cargas resistivas, ROE = Zmayor / Zmenor = 75 / 50 = 1,5."
+    },
+    {
+      "id": "ar-ant-016",
+      "category": "antennas",
+      "level": "general",
+      "question": "¿Qué impedancia debe tener un transformador de cuarto de onda para adaptar 50 Ω a 200 Ω?",
+      "options": [
+        "125 Ω",
+        "75 Ω",
+        "100 Ω",
+        "150 Ω"
+      ],
+      "correctIndex": 2,
+      "explanation": "Z = √(Z1 · Z2) = √(50 × 200) = 100 Ω."
+    },
+    {
+      "id": "ar-ant-017",
+      "category": "antennas",
+      "level": "general",
+      "question": "¿Cuál es la diferencia entre dBi y dBd?",
+      "options": [
+        "dBd se refiere a una antena isotrópica; dBi = dBd − 2,15",
+        "Son equivalentes",
+        "dBi mide pérdidas y dBd mide ganancias",
+        "dBi se refiere a una antena isotrópica y dBd a un dipolo; dBi = dBd + 2,15"
+      ],
+      "correctIndex": 3,
+      "explanation": "El dipolo de media onda tiene 2,15 dBi de ganancia, por eso las cifras en dBi son 2,15 dB mayores que en dBd."
+    },
+    {
+      "id": "ar-ant-018",
+      "category": "antennas",
+      "level": "general",
+      "question": "Un transmisor entrega 100 W, el cable tiene 3 dB de pérdida y la antena 10 dBi. ¿Cuál es la PIRE aproximada?",
+      "options": [
+        "500 W",
+        "1000 W",
+        "200 W",
+        "700 W"
+      ],
+      "correctIndex": 0,
+      "explanation": "Ganancia neta = 10 − 3 = 7 dB (×5,01): PIRE ≈ 100 W × 5,01 ≈ 501 W."
+    },
+    {
+      "id": "ar-ant-019",
+      "category": "antennas",
+      "level": "general",
+      "question": "¿Qué ventaja tiene una línea abierta (ladder line) frente a un coaxial?",
+      "options": [
+        "Mayor blindaje frente al ruido",
+        "Menores pérdidas, incluso con ROE alta",
+        "Siempre tiene 50 Ω",
+        "No necesita balun con equipos desbalanceados"
+      ],
+      "correctIndex": 1,
+      "explanation": "Con ROE alta las pérdidas del coaxial aumentan mucho; la línea abierta casi no las sufre, aunque requiere balun o acoplador."
+    },
+    {
+      "id": "ar-ant-020",
+      "category": "antennas",
+      "level": "general",
+      "question": "¿Para qué sirve un acoplador de antena (transmatch)?",
+      "options": [
+        "Para aumentar la ganancia de la antena",
+        "Para eliminar los armónicos",
+        "Para que el transmisor «vea» 50 Ω, sin corregir la desadaptación de la antena",
+        "Para convertir polarización vertical en horizontal"
+      ],
+      "correctIndex": 2,
+      "explanation": "El acoplador compensa la impedancia en el lado del equipo; la ROE sobre la línea hacia la antena sigue existiendo."
+    },
+    {
+      "id": "ar-saf-010",
+      "category": "safety",
+      "level": "general",
+      "question": "Una antena isotrópica irradia 100 W. ¿Cuál es la densidad de potencia a 10 m?",
+      "options": [
+        "0,8 W/m²",
+        "8 W/m²",
+        "0,008 W/m²",
+        "0,08 W/m²"
+      ],
+      "correctIndex": 3,
+      "explanation": "S = P / (4π·r²) = 100 / (4π × 100) ≈ 0,08 W/m²."
+    },
+    {
+      "id": "ar-saf-011",
+      "category": "safety",
+      "level": "general",
+      "question": "Si se duplica la distancia a una antena, ¿cómo cambia la densidad de potencia?",
+      "options": [
+        "Cae a la cuarta parte",
+        "Cae a la mitad",
+        "Cae a la octava parte",
+        "No cambia"
+      ],
+      "correctIndex": 0,
+      "explanation": "La densidad de potencia es inversamente proporcional al cuadrado de la distancia."
+    },
+    {
+      "id": "ar-saf-012",
+      "category": "safety",
+      "level": "general",
+      "question": "Para reducir la exposición del público a la RF, se recomienda:",
+      "options": [
+        "Instalar la antena sobre el tejado vecino",
+        "Alejar la antena de zonas habitadas y reducir potencia o tiempo de transmisión",
+        "Transmitir siempre con la máxima potencia",
+        "Apuntar la antena a las ventanas"
+      ],
+      "correctIndex": 1,
+      "explanation": "La exposición disminuye con la distancia, con la potencia y con el tiempo de emisión."
+    },
+    {
+      "id": "ar-saf-013",
+      "category": "safety",
+      "level": "general",
+      "question": "En una estación con varios equipos, ¿por qué se conectan todos a una barra de tierra común?",
+      "options": [
+        "Para aumentar la potencia de salida",
+        "Para reducir la ROE",
+        "Para evitar diferencias de potencial entre equipos y mejorar la seguridad",
+        "Para que la antena irradie más"
+      ],
+      "correctIndex": 2,
+      "explanation": "Una tierra común evita diferencias de potencial y bucles de tierra entre aparatos interconectados."
+    },
+    {
+      "id": "ar-proc-017",
+      "category": "procedures",
+      "level": "general",
+      "question": "¿Qué pregunta el código Q «QRK?»?",
+      "options": [
+        "¿Cuál es mi frecuencia exacta?",
+        "¿Qué hora tiene?",
+        "¿Debo aumentar la potencia?",
+        "¿Cuál es la inteligibilidad de mis señales?"
+      ],
+      "correctIndex": 3,
+      "explanation": "QRK se refiere a la inteligibilidad (legibilidad) de las señales."
+    },
+    {
+      "id": "ar-proc-018",
+      "category": "procedures",
+      "level": "general",
+      "question": "¿Qué significa «QSB»?",
+      "options": [
+        "Sus señales se desvanecen (fading)",
+        "Hay ruido atmosférico",
+        "Reduzca la potencia",
+        "Estoy ocupado"
+      ],
+      "correctIndex": 0,
+      "explanation": "QSB indica variaciones de intensidad de la señal por desvanecimiento."
+    },
+    {
+      "id": "ar-proc-019",
+      "category": "procedures",
+      "level": "general",
+      "question": "¿Qué significa «QRG»?",
+      "options": [
+        "Su potencia exacta es…",
+        "Su frecuencia exacta es…",
+        "Voy a cambiar de frecuencia",
+        "Hay interferencia"
+      ],
+      "correctIndex": 1,
+      "explanation": "QRG se usa para preguntar o indicar la frecuencia exacta de una emisión."
+    },
+    {
+      "id": "ar-proc-020",
+      "category": "procedures",
+      "level": "general",
+      "question": "¿Qué significa «QRO»?",
+      "options": [
+        "Reduzca la potencia",
+        "Cese la transmisión",
+        "Aumente la potencia (operar con potencia alta)",
+        "Cambie de frecuencia"
+      ],
+      "correctIndex": 2,
+      "explanation": "QRO es lo contrario de QRP."
+    },
+    {
+      "id": "ar-proc-021",
+      "category": "procedures",
+      "level": "general",
+      "question": "¿Qué es operar en «split»?",
+      "options": [
+        "Operar con dos antenas a la vez",
+        "Operar en CW y fonía simultáneamente",
+        "Operar con dos equipos",
+        "Transmitir y recibir en frecuencias distintas"
+      ],
+      "correctIndex": 3,
+      "explanation": "En split, el transmisor y el receptor usan frecuencias diferentes, típico en estaciones DX muy llamadas."
+    },
+    {
+      "id": "ar-proc-022",
+      "category": "procedures",
+      "level": "general",
+      "question": "En un concurso (contest), ¿qué intercambio mínimo es habitual?",
+      "options": [
+        "Indicativo y un reporte o número de serie",
+        "Nombre completo y dirección",
+        "Solo el indicativo del corresponsal",
+        "Un resumen de la propagación"
+      ],
+      "correctIndex": 0,
+      "explanation": "Los concursos usan intercambios breves, normalmente un reporte y un número de serie o zona."
+    },
+    {
+      "id": "ar-proc-023",
+      "category": "procedures",
+      "level": "general",
+      "question": "¿Cuántos decibeles corresponden a una unidad S en la escala IARU?",
+      "options": [
+        "3 dB",
+        "6 dB",
+        "10 dB",
+        "20 dB"
+      ],
+      "correctIndex": 1,
+      "explanation": "Cada punto S equivale a 6 dB; por encima de S9 las lecturas se dan en dB (S9+10, S9+20…)."
+    },
+    {
+      "id": "ar-reg-015",
+      "category": "regulation",
+      "level": "superior",
+      "question": "¿Qué es una emisión espuria?",
+      "options": [
+        "La emisión principal de una estación",
+        "La señal de una estación que usa un indicativo propio",
+        "Una emisión fuera de la banda necesaria cuyo nivel puede reducirse sin afectar a la información transmitida",
+        "Una señal exclusivamente de recepción"
+      ],
+      "correctIndex": 2,
+      "explanation": "Las emisiones espurias (armónicas, parásitas, de intermodulación) deben mantenerse en niveles bajos para evitar interferencias.",
+      "verified": false,
+      "source": "Reglamento de Radiocomunicaciones de la UIT (definiciones)"
+    },
+    {
+      "id": "ar-reg-016",
+      "category": "regulation",
+      "level": "superior",
+      "question": "¿Qué es la anchura de banda necesaria de una emisión?",
+      "options": [
+        "La anchura total que ocupa el transmisor sin filtros",
+        "La separación entre dos canales",
+        "La anchura de banda del receptor",
+        "La mínima anchura que permite transmitir la información con la calidad requerida"
+      ],
+      "correctIndex": 3,
+      "explanation": "La UIT la define como la anchura de banda suficiente para asegurar la transmisión con la velocidad y calidad requeridas.",
+      "verified": false,
+      "source": "Reglamento de Radiocomunicaciones de la UIT (definiciones)"
+    },
+    {
+      "id": "ar-elec-034",
+      "category": "electronics",
+      "level": "superior",
+      "question": "¿Cuál es el rendimiento máximo teórico de un amplificador clase B en contrafase?",
+      "options": [
+        "78,5 %",
+        "50 %",
+        "25 %",
+        "100 %"
+      ],
+      "correctIndex": 0,
+      "explanation": "El rendimiento máximo teórico de la clase B es π/4 ≈ 78,5 %; la clase A tiene un máximo de 50 % (25 % con carga resistiva directa)."
+    },
+    {
+      "id": "ar-elec-035",
+      "category": "electronics",
+      "level": "superior",
+      "question": "Un receptor superheterodino de FI 455 kHz, con oscilador local por encima de la señal, sintoniza 14,2 MHz. ¿Cuál es la frecuencia imagen?",
+      "options": [
+        "13,29 MHz",
+        "15,11 MHz",
+        "14,655 MHz",
+        "14,2 MHz"
+      ],
+      "correctIndex": 1,
+      "explanation": "Frecuencia imagen = f + 2·FI = 14,2 + 2 × 0,455 = 15,11 MHz (el oscilador local está en 14,655 MHz)."
+    },
+    {
+      "id": "ar-elec-036",
+      "category": "electronics",
+      "level": "superior",
+      "question": "Dos tonos de 14,100 y 14,102 MHz entran a un amplificador no lineal. ¿Dónde aparecen los productos de intermodulación de 3.er orden?",
+      "options": [
+        "14,101 MHz",
+        "14,200 MHz y 28,202 MHz",
+        "14,098 MHz y 14,104 MHz",
+        "28,200 MHz y 28,204 MHz"
+      ],
+      "correctIndex": 2,
+      "explanation": "Los productos son 2f₁−f₂ = 14,098 MHz y 2f₂−f₁ = 14,104 MHz, muy cerca de los tonos y difíciles de filtrar."
+    },
+    {
+      "id": "ar-elec-037",
+      "category": "electronics",
+      "level": "superior",
+      "question": "¿Cuál es el tercer armónico de una señal de 7,1 MHz?",
+      "options": [
+        "14,2 MHz",
+        "10,65 MHz",
+        "28,4 MHz",
+        "21,3 MHz"
+      ],
+      "correctIndex": 3,
+      "explanation": "El tercer armónico es 3 × 7,1 MHz = 21,3 MHz; el segundo sería 14,2 MHz y el cuarto 28,4 MHz."
+    },
+    {
+      "id": "ar-elec-038",
+      "category": "electronics",
+      "level": "superior",
+      "question": "¿Cuál es el piso de ruido térmico en un ancho de banda de 2,4 kHz (a 290 K)?",
+      "options": [
+        "−140 dBm",
+        "−174 dBm",
+        "−120 dBm",
+        "−160 dBm"
+      ],
+      "correctIndex": 0,
+      "explanation": "N = −174 dBm/Hz + 10·log(2400) ≈ −174 + 33,8 = -140,2 dBm."
+    },
+    {
+      "id": "ar-elec-039",
+      "category": "electronics",
+      "level": "superior",
+      "question": "Un amplificador operacional inversor tiene Rin = 10 kΩ y Rf = 100 kΩ. ¿Cuál es su ganancia de tensión?",
+      "options": [
+        "+11",
+        "−10 (invierte la fase)",
+        "+10",
+        "−0,1"
+      ],
+      "correctIndex": 1,
+      "explanation": "Ganancia = −Rf / Rin = −100 k / 10 k = −10; la configuración no inversora daría 1 + Rf/Rin = 11."
+    },
+    {
+      "id": "ar-elec-040",
+      "category": "electronics",
+      "level": "superior",
+      "question": "¿Qué pendiente asintótica tiene un filtro pasabajos de 3 polos?",
+      "options": [
+        "6 dB por octava",
+        "12 dB por octava",
+        "18 dB por octava",
+        "24 dB por octava"
+      ],
+      "correctIndex": 2,
+      "explanation": "Cada polo agrega 6 dB por octava (20 dB por década); con tres polos son 18 dB por octava."
+    },
+    {
+      "id": "ar-elec-041",
+      "category": "electronics",
+      "level": "superior",
+      "question": "¿Qué bloques forman un lazo de enganche de fase (PLL)?",
+      "options": [
+        "Mezclador, filtro de cristal y antena",
+        "Rectificador, filtro y regulador",
+        "Detector de envolvente, amplificador de audio y altavoz",
+        "Detector de fase, filtro de lazo y oscilador controlado por tensión (VCO)"
+      ],
+      "correctIndex": 3,
+      "explanation": "El detector de fase compara las fases, el filtro de lazo suaviza el error y el VCO corrige su frecuencia hasta engancharse."
+    },
+    {
+      "id": "ar-elec-042",
+      "category": "electronics",
+      "level": "superior",
+      "question": "En un receptor, ¿qué indica un mayor punto de intercepción de tercer orden (IP3)?",
+      "options": [
+        "Mejor rechazo a la intermodulación",
+        "Mayor sensibilidad",
+        "Menor consumo",
+        "Mayor ancho de banda"
+      ],
+      "correctIndex": 0,
+      "explanation": "Un IP3 alto significa que el receptor tolera señales fuertes antes de generar productos de intermodulación."
+    },
+    {
+      "id": "ar-elec-043",
+      "category": "electronics",
+      "level": "superior",
+      "question": "Una señal de −100 dBm sobre un ruido de −120 dBm, ¿qué relación señal/ruido tiene?",
+      "options": [
+        "−20 dB",
+        "20 dB",
+        "220 dB",
+        "2 dB"
+      ],
+      "correctIndex": 1,
+      "explanation": "SNR = −100 − (−120) = 20 dB."
+    },
+    {
+      "id": "ar-elec-044",
+      "category": "electronics",
+      "level": "superior",
+      "question": "¿Qué significa que un dispositivo tenga una figura de ruido de 3 dB?",
+      "options": [
+        "Que amplifica 3 veces la señal",
+        "Que no agrega ruido",
+        "Que duplica la potencia de ruido respecto del caso ideal (la relación señal/ruido cae a la mitad)",
+        "Que tiene una ganancia de 3 dB"
+      ],
+      "correctIndex": 2,
+      "explanation": "F = 3 dB equivale a un factor de 2: la SNR a la salida es la mitad de la de la entrada."
+    },
+    {
+      "id": "ar-prop-018",
+      "category": "propagation",
+      "level": "superior",
+      "question": "Con una frecuencia crítica de 5 MHz y un ángulo de incidencia de 60° respecto de la vertical, ¿cuál es la MUF?",
+      "options": [
+        "2,5 MHz",
+        "5 MHz",
+        "7,5 MHz",
+        "10 MHz"
+      ],
+      "correctIndex": 3,
+      "explanation": "MUF = fc / cos θ = 5 / cos 60° = 5 / 0,5 = 10 MHz (ley de la secante)."
+    },
+    {
+      "id": "ar-prop-019",
+      "category": "propagation",
+      "level": "superior",
+      "question": "¿En qué consiste la dispersión por meteoros (meteor scatter)?",
+      "options": [
+        "En la reflexión de VHF en estelas ionizadas de meteoros, con contactos breves de cientos a unos 2000 km",
+        "En la reflexión en la capa F2 durante la noche",
+        "En la propagación por la superficie del mar",
+        "En la propagación por la ionosfera polar únicamente"
+      ],
+      "correctIndex": 0,
+      "explanation": "La estela ionizada de un meteoro refleja brevemente señales de VHF (típicamente 50 y 144 MHz)."
+    },
+    {
+      "id": "ar-prop-020",
+      "category": "propagation",
+      "level": "superior",
+      "question": "¿Qué es la propagación transecuatorial (TEP)?",
+      "options": [
+        "Propagación por el cable submarino",
+        "Propagación de VHF entre estaciones a ambos lados del ecuador, típicamente por la tarde-noche, debida a irregularidades ionosféricas",
+        "Propagación solo diurna en HF",
+        "Propagación por reflexión lunar"
+      ],
+      "correctIndex": 1,
+      "explanation": "La TEP permite contactos de VHF a miles de kilómetros entre latitudes similares a ambos lados del ecuador."
+    },
+    {
+      "id": "ar-prop-021",
+      "category": "propagation",
+      "level": "superior",
+      "question": "¿Cuál es la pérdida en espacio libre a 144 MHz y 100 km de distancia?",
+      "options": [
+        "95,6 dB",
+        "135,6 dB",
+        "115,6 dB",
+        "75,6 dB"
+      ],
+      "correctIndex": 2,
+      "explanation": "FSPL = 32,44 + 20·log(144) + 20·log(100) ≈ 32,44 + 43,17 + 40 = 115,6 dB."
+    },
+    {
+      "id": "ar-prop-022",
+      "category": "propagation",
+      "level": "superior",
+      "question": "¿Qué es la frecuencia crítica de una capa ionosférica?",
+      "options": [
+        "La frecuencia mínima utilizable",
+        "La frecuencia de resonancia de la antena",
+        "La frecuencia a la que se anula el desvanecimiento",
+        "La frecuencia máxima que se refleja con incidencia vertical"
+      ],
+      "correctIndex": 3,
+      "explanation": "Por encima de la frecuencia crítica, una señal enviada verticalmente atraviesa la capa y se pierde."
+    },
+    {
+      "id": "ar-prop-023",
+      "category": "propagation",
+      "level": "superior",
+      "question": "En la propagación auroral, ¿qué modo suele resultar más inteligible?",
+      "options": [
+        "CW, porque la señal llega dispersa y con efecto Doppler",
+        "SSB, porque conserva mejor la voz",
+        "FM de banda ancha",
+        "AM con portadora"
+      ],
+      "correctIndex": 0,
+      "explanation": "La reflexión en las cortinas auroras distorsiona las señales; el CW es el modo que mejor tolera esa dispersión."
+    },
+    {
+      "id": "ar-ant-021",
+      "category": "antennas",
+      "level": "superior",
+      "question": "Con una ROE de 3:1, ¿qué porcentaje de la potencia directa se refleja?",
+      "options": [
+        "50 %",
+        "25 %",
+        "33 %",
+        "75 %"
+      ],
+      "correctIndex": 1,
+      "explanation": "Γ = (3 − 1) / (3 + 1) = 0,5; potencia reflejada = Γ² = 0,25 = 25 %."
+    },
+    {
+      "id": "ar-ant-022",
+      "category": "antennas",
+      "level": "superior",
+      "question": "¿Cuál es la pérdida de retorno con una ROE de 3:1?",
+      "options": [
+        "3 dB",
+        "9,5 dB",
+        "6 dB",
+        "12 dB"
+      ],
+      "correctIndex": 2,
+      "explanation": "RL = −20·log(Γ) = −20·log(0,5) ≈ 6,0 dB."
+    },
+    {
+      "id": "ar-ant-023",
+      "category": "antennas",
+      "level": "superior",
+      "question": "¿Cuál es la pérdida por desadaptación con una ROE de 3:1?",
+      "options": [
+        "0,5 dB",
+        "3 dB",
+        "6 dB",
+        "1,25 dB"
+      ],
+      "correctIndex": 3,
+      "explanation": "ML = −10·log(1 − Γ²) = −10·log(0,75) ≈ 1,25 dB."
+    },
+    {
+      "id": "ar-ant-024",
+      "category": "antennas",
+      "level": "superior",
+      "question": "Si una antena reduce a la mitad su ancho de haz en ambos planos, ¿cómo cambia aproximadamente su ganancia?",
+      "options": [
+        "Aumenta unos 6 dB (cuatro veces)",
+        "Aumenta 3 dB",
+        "No cambia",
+        "Disminuye 6 dB"
+      ],
+      "correctIndex": 0,
+      "explanation": "El ángulo sólido del haz se reduce a la cuarta parte, por lo que la ganancia se multiplica por cuatro (+6 dB)."
+    },
+    {
+      "id": "ar-ant-025",
+      "category": "antennas",
+      "level": "superior",
+      "question": "En la carta de Smith, ¿qué representa el centro?",
+      "options": [
+        "Un cortocircuito",
+        "Adaptación perfecta: impedancia igual a la característica (ROE 1:1)",
+        "Un circuito abierto",
+        "Una reactancia pura"
+      ],
+      "correctIndex": 1,
+      "explanation": "En el centro Γ = 0: la carga coincide con la impedancia característica."
+    },
+    {
+      "id": "ar-ant-026",
+      "category": "antennas",
+      "level": "superior",
+      "question": "Un stub en cortocircuito de λ/4 se comporta en su entrada como:",
+      "options": [
+        "Un cortocircuito",
+        "Una resistencia de 50 Ω",
+        "Un circuito abierto (impedancia muy alta)",
+        "Un capacitor puro"
+      ],
+      "correctIndex": 2,
+      "explanation": "La línea de λ/4 invierte las impedancias: un corto en el extremo se ve como un circuito abierto en la entrada."
+    },
+    {
+      "id": "ar-ant-027",
+      "category": "antennas",
+      "level": "superior",
+      "question": "¿Para qué se utiliza una adaptación gamma (gamma match)?",
+      "options": [
+        "Para eliminar la polarización",
+        "Para alimentar una antena con línea abierta",
+        "Para filtrar armónicos",
+        "Para adaptar el elemento excitado de una Yagi alimentándolo con coaxial"
+      ],
+      "correctIndex": 3,
+      "explanation": "El gamma match deriva parte del elemento excitado para reducir su impedancia y adaptarla a 50 Ω."
+    },
+    {
+      "id": "ar-ant-028",
+      "category": "antennas",
+      "level": "superior",
+      "question": "Una antena con 25 Ω resistivos conectada a una línea de 50 Ω produce una ROE de:",
+      "options": [
+        "2:1",
+        "1,5:1",
+        "25:1",
+        "0,5:1"
+      ],
+      "correctIndex": 0,
+      "explanation": "ROE = Zmayor / Zmenor = 50 / 25 = 2:1."
+    },
+    {
+      "id": "ar-saf-014",
+      "category": "safety",
+      "level": "superior",
+      "question": "¿Qué mide la tasa de absorción específica (SAR)?",
+      "options": [
+        "La intensidad del campo eléctrico (V/m)",
+        "La potencia de RF absorbida por unidad de masa de tejido (W/kg)",
+        "La densidad de potencia en el aire (W/m²)",
+        "La corriente inducida en la antena"
+      ],
+      "correctIndex": 1,
+      "explanation": "El SAR se mide en W/kg y es la base de las restricciones básicas de exposición a RF."
+    },
+    {
+      "id": "ar-saf-015",
+      "category": "safety",
+      "level": "superior",
+      "question": "¿Por qué los límites de exposición a RF para el público son más estrictos que para la exposición ocupacional?",
+      "options": [
+        "Porque el público usa equipos más potentes",
+        "Porque la RF afecta menos a los trabajadores",
+        "Porque el público no está informado, no controla su exposición y puede incluir a personas sensibles",
+        "No son más estrictos"
+      ],
+      "correctIndex": 2,
+      "explanation": "Las normas aplican márgenes mayores donde las personas no conocen ni controlan la exposición."
+    },
+    {
+      "id": "ar-saf-016",
+      "category": "safety",
+      "level": "superior",
+      "question": "Si se cuadruplica la potencia de una estación, ¿cómo cambia la distancia de seguridad para el mismo nivel de exposición?",
+      "options": [
+        "Se cuadruplica",
+        "Se mantiene igual",
+        "Se reduce a la mitad",
+        "Se duplica"
+      ],
+      "correctIndex": 3,
+      "explanation": "La densidad es proporcional a P/r²; para mantener el mismo valor, r crece con la raíz cuadrada de P (√4 = 2)."
+    },
+    {
+      "id": "ar-proc-024",
+      "category": "procedures",
+      "level": "superior",
+      "question": "Cuando un satélite se acerca a la estación, la frecuencia recibida es:",
+      "options": [
+        "Mayor que la transmitida (efecto Doppler)",
+        "Menor que la transmitida",
+        "Idéntica a la transmitida",
+        "Cero"
+      ],
+      "correctIndex": 0,
+      "explanation": "El efecto Doppler eleva la frecuencia al acercarse el satélite y la reduce al alejarse."
+    },
+    {
+      "id": "ar-proc-025",
+      "category": "procedures",
+      "level": "superior",
+      "question": "¿Cuánto dura el ciclo de transmisión/recepción del modo FT8?",
+      "options": [
+        "1 minuto",
+        "15 segundos",
+        "2 minutos",
+        "30 segundos"
+      ],
+      "correctIndex": 1,
+      "explanation": "FT8 trabaja con ciclos sincronizados de 15 s; FT4 usa 7,5 s."
+    },
+    {
+      "id": "ar-proc-026",
+      "category": "procedures",
+      "level": "superior",
+      "question": "En la operación a través de un transpondedor lineal de satélite, ¿qué conviene hacer?",
+      "options": [
+        "Transmitir siempre con la máxima potencia",
+        "Transmitir una portadora continua para ser localizado",
+        "Usar la mínima potencia necesaria para no desensibilizar el transpondedor",
+        "Usar solo FM de banda ancha"
+      ],
+      "correctIndex": 2,
+      "explanation": "Un transpondedor lineal reparte su potencia entre todos los usuarios; una señal excesiva reduce la de los demás."
     }
   ]
 }
